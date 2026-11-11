@@ -1,7 +1,7 @@
 /**
  * src/analytics.js 자체 테스트 (실행: npm test)
  *
- *   정규화(02) · summary(03·04·06) · campaigns(03·04) · 입력 검증(03) · 반올림(04) · HTTP 응답(03)
+ * 정규화(02) · summary(03·04·06) · campaigns(03·04) · 입력 검증(03) · 반올림(04) · HTTP 응답(03)
  * 실제 데이터로 확인할 수 없는 경우(광고비 동점, 같은 ID·다른 매체)는 가짜 데이터를 만들어 검증합니다.
  */
 import { test, describe, before, after } from 'node:test';
@@ -66,7 +66,7 @@ describe('GET /api/summary', () => {
     }
   });
 
-  test('README 예시: naver 2026-11-02 하루 광고비는 90000', () => {
+  test('스타터 README 예시: naver 2026-11-02 하루 광고비는 90000', () => {
     const { totals, byPlatform } = getSummary(feeds, q('start=2026-11-02&end=2026-11-02&platform=naver'));
     assert.equal(totals.cost, 90000);
     assert.equal(byPlatform.length, 1);
