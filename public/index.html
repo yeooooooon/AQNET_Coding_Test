@@ -9,68 +9,72 @@
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+  <!-- 키보드 사용자용: Tab 한 번으로 본문으로 건너뛰기 -->
   <a class="skip-link" href="#main">본문으로 바로가기</a>
 
   <div class="layout">
-    <!-- ===================== 사이드바: 섹션 이동 + 조회 조건 ===================== -->
+
+    <!-- ================= 사이드바: 화면 메뉴 + 조회 조건 ================= -->
     <aside class="sidebar" aria-label="화면 메뉴 및 조회 조건">
-     <div class="sidebar-inner">
-      <div class="side-head">
+      <div class="sidebar-inner">
         <p class="side-title">광고 성과 대시보드</p>
-      </div>
 
-      <nav class="side-nav" aria-label="화면 메뉴">
-        <a href="#overview" data-view="overview">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
-          <span>성과 요약</span>
-        </a>
-        <a href="#campaigns" data-view="campaigns">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
-          <span>캠페인 실적</span>
-          <span class="nav-count" id="nav-campaign-count"></span>
-        </a>
-      </nav>
+        <!-- 화면 메뉴: 주소의 #overview / #campaigns 로 화면 전환 (app.js 8번) -->
+        <nav class="side-nav" aria-label="화면 메뉴">
+          <a href="#overview" data-view="overview">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+            <span>성과 요약</span>
+          </a>
+          <a href="#campaigns" data-view="campaigns">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
+            <span>캠페인 실적</span>
+            <span class="nav-count" id="nav-campaign-count"></span>
+          </a>
+        </nav>
 
-      <form id="filter-form" class="side-filter" novalidate aria-labelledby="filter-title">
-        <p class="side-label" id="filter-title">조회 조건</p>
+        <!-- 조회 조건 (문제지 05: 시작일/종료일/매체 필터 + 조회 버튼) -->
+        <form id="filter-form" class="side-filter" novalidate aria-labelledby="filter-title">
+          <p class="side-label" id="filter-title">조회 조건</p>
 
-        <div class="field">
-          <label for="start">시작일</label>
-          <input id="start" name="start" type="date" aria-describedby="form-error" />
-        </div>
-        <div class="field">
-          <label for="end">종료일</label>
-          <input id="end" name="end" type="date" aria-describedby="form-error" />
-        </div>
-
-        <fieldset class="field platform-field">
-          <legend>매체</legend>
-          <div class="option-list" id="platform">
-            <label class="option"><input type="radio" name="platform" value="" checked /><span class="option-body">전체</span></label>
-            <label class="option"><input type="radio" name="platform" value="naver" /><span class="option-body" data-platform="naver"><span class="dot" aria-hidden="true"></span>Naver</span></label>
-            <label class="option"><input type="radio" name="platform" value="meta" /><span class="option-body" data-platform="meta"><span class="dot" aria-hidden="true"></span>Meta</span></label>
-            <label class="option"><input type="radio" name="platform" value="google" /><span class="option-body" data-platform="google"><span class="dot" aria-hidden="true"></span>Google</span></label>
+          <div class="field">
+            <label for="start">시작일</label>
+            <input id="start" name="start" type="date" aria-describedby="form-error" />
           </div>
-        </fieldset>
+          <div class="field">
+            <label for="end">종료일</label>
+            <input id="end" name="end" type="date" aria-describedby="form-error" />
+          </div>
 
-        <p class="field-error" id="form-error" role="alert" hidden></p>
+          <!-- 매체: 라디오 버튼을 버튼 모양으로 표시 (value가 빈 문자열이면 전체) -->
+          <fieldset class="field platform-field">
+            <legend>매체</legend>
+            <div class="option-list">
+              <label class="option"><input type="radio" name="platform" value="" checked /><span class="option-body">전체</span></label>
+              <label class="option"><input type="radio" name="platform" value="naver" /><span class="option-body" data-platform="naver"><span class="dot" aria-hidden="true"></span>Naver</span></label>
+              <label class="option"><input type="radio" name="platform" value="meta" /><span class="option-body" data-platform="meta"><span class="dot" aria-hidden="true"></span>Meta</span></label>
+              <label class="option"><input type="radio" name="platform" value="google" /><span class="option-body" data-platform="google"><span class="dot" aria-hidden="true"></span>Google</span></label>
+            </div>
+          </fieldset>
 
-        <div class="side-actions">
-          <button type="submit" class="btn btn-primary" id="submit-btn">
-            <svg class="icon btn-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <span class="spinner" aria-hidden="true"></span>
-            <span class="btn-label">조회</span>
-          </button>
-          <button type="reset" class="btn btn-ghost btn-reset" id="reset-btn" title="조건 초기화">
-            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-            <span>초기화</span>
-          </button>
-        </div>
-      </form>
-     </div>
+          <!-- 시작일 > 종료일일 때 오류 문구 -->
+          <p class="field-error" id="form-error" role="alert" hidden></p>
+
+          <div class="side-actions">
+            <button type="submit" class="btn btn-primary" id="submit-btn">
+              <svg class="icon btn-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <span class="spinner" aria-hidden="true"></span>
+              <span class="btn-label">조회</span>
+            </button>
+            <button type="reset" class="btn btn-ghost btn-reset" title="조건 초기화">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              <span>초기화</span>
+            </button>
+          </div>
+        </form>
+      </div>
     </aside>
 
-    <!-- ===================== 본문 ===================== -->
+    <!-- ================= 본문 ================= -->
     <main id="main" class="main" tabindex="-1">
       <header class="page-head">
         <div>
@@ -81,11 +85,13 @@
         <p class="updated" id="updated"></p>
       </header>
 
+      <!-- JavaScript가 꺼져 있을 때만 보이는 안내 -->
       <noscript>
         <p class="noscript">이 페이지는 JavaScript가 필요합니다. 브라우저 설정에서 JavaScript를 켠 뒤 새로고침해 주세요.
           API 직접 조회: <a href="/api/summary">/api/summary</a>, <a href="/api/campaigns">/api/campaigns</a></p>
       </noscript>
 
+      <!-- 에러 배너 (문제지 05: 에러 메시지 표시) -->
       <div id="error-banner" class="banner" role="alert" hidden>
         <span class="banner-icon" aria-hidden="true">!</span>
         <div class="banner-body">
@@ -95,139 +101,134 @@
         <button type="button" class="btn btn-ghost btn-sm" id="retry-btn">다시 시도</button>
       </div>
 
+      <!-- 스크린리더에 "불러오는 중 / 조회 완료"를 읽어 주는 영역 (화면에는 안 보임) -->
       <p id="status" class="sr-only" role="status" aria-live="polite"></p>
 
       <div id="results" class="results" aria-busy="true">
-       <!-- ============ 화면 1: 성과 요약 ============ -->
-       <div class="view" data-view-panel="overview">
-        <!-- 1. 전체 요약 -->
-        <section id="summary-section" aria-labelledby="summary-title">
-          <h2 id="summary-title" class="sr-only">전체 요약</h2>
-          <div id="summary" class="kpis is-loading">
-            <article class="kpi" aria-labelledby="kpi-cost-label">
-              <div class="kpi-top">
+
+        <!-- ============ 화면 1: 성과 요약 ============ -->
+        <div class="view" data-view-panel="overview">
+
+          <!-- 요약 카드 5개 (문제지 05: 광고비·전환수·매출·CPA·ROAS). 숫자는 app.js setKpi()가 채움 -->
+          <section id="summary-section" aria-labelledby="summary-title">
+            <h2 id="summary-title" class="sr-only">전체 요약</h2>
+            <div id="summary" class="kpis is-loading">
+              <article class="kpi" aria-labelledby="kpi-cost-label">
                 <p class="kpi-label" id="kpi-cost-label">총 광고비</p>
-              </div>
-              <p class="kpi-value" id="kpi-cost">-</p>
-              <p class="kpi-note" id="kpi-cost-note">&nbsp;</p>
-            </article>
-            <article class="kpi" aria-labelledby="kpi-revenue-label">
-              <div class="kpi-top">
+                <p class="kpi-value" id="kpi-cost">-</p>
+                <p class="kpi-note" id="kpi-cost-note">&nbsp;</p>
+              </article>
+              <article class="kpi" aria-labelledby="kpi-revenue-label">
                 <p class="kpi-label" id="kpi-revenue-label">총 전환 매출</p>
-              </div>
-              <p class="kpi-value" id="kpi-revenue">-</p>
-              <p class="kpi-note" id="kpi-revenue-note">&nbsp;</p>
-            </article>
-            <article class="kpi" aria-labelledby="kpi-conversions-label">
-              <div class="kpi-top">
+                <p class="kpi-value" id="kpi-revenue">-</p>
+                <p class="kpi-note" id="kpi-revenue-note">&nbsp;</p>
+              </article>
+              <article class="kpi" aria-labelledby="kpi-conversions-label">
                 <p class="kpi-label" id="kpi-conversions-label">총 전환수</p>
-              </div>
-              <p class="kpi-value" id="kpi-conversions">-</p>
-              <p class="kpi-note" id="kpi-conversions-note">&nbsp;</p>
-            </article>
-            <article class="kpi" aria-labelledby="kpi-cpa-label">
-              <div class="kpi-top">
+                <p class="kpi-value" id="kpi-conversions">-</p>
+                <p class="kpi-note" id="kpi-conversions-note">&nbsp;</p>
+              </article>
+              <article class="kpi" aria-labelledby="kpi-cpa-label">
                 <p class="kpi-label" id="kpi-cpa-label">CPA</p>
-              </div>
-              <p class="kpi-value" id="kpi-cpa">-</p>
-              <p class="kpi-note" id="kpi-cpa-note">&nbsp;</p>
-            </article>
-            <article class="kpi kpi-hero" aria-labelledby="kpi-roas-label">
-              <div class="kpi-top">
+                <p class="kpi-value" id="kpi-cpa">-</p>
+                <p class="kpi-note" id="kpi-cpa-note">&nbsp;</p>
+              </article>
+              <article class="kpi kpi-hero" aria-labelledby="kpi-roas-label">
                 <p class="kpi-label" id="kpi-roas-label">ROAS</p>
-              </div>
-              <p class="kpi-value" id="kpi-roas">-</p>
-              <p class="kpi-note" id="kpi-roas-note">&nbsp;</p>
-            </article>
-          </div>
-        </section>
+                <p class="kpi-value" id="kpi-roas">-</p>
+                <p class="kpi-note" id="kpi-roas-note">&nbsp;</p>
+              </article>
+            </div>
+          </section>
 
-        <!-- 2. 매체별 성과 -->
-        <section id="platform-section" aria-labelledby="platform-section-title">
-          <h2 id="platform-section-title" class="sr-only">매체별 성과</h2>
-          <div class="grid-2">
-            <article class="card panel" aria-labelledby="share-title">
-              <h3 id="share-title" class="panel-title">광고비 점유율</h3>
-              <div class="donut-layout">
-              <div class="donut-wrap">
-                <svg id="donut" class="donut" viewBox="0 0 120 120" role="img" aria-labelledby="donut-desc"></svg>
-                <div class="donut-center" aria-hidden="true">
-                  <span class="donut-caption">총 광고비</span>
-                  <strong id="donut-total">-</strong>
+          <!-- 매체별: 광고비 점유율 도넛 + 매체별 지표 표 -->
+          <section id="platform-section" aria-labelledby="platform-section-title">
+            <h2 id="platform-section-title" class="sr-only">매체별 성과</h2>
+            <div class="grid-2">
+              <article class="card panel" aria-labelledby="share-title">
+                <h3 id="share-title" class="panel-title">광고비 점유율</h3>
+                <div class="donut-layout">
+                  <div class="donut-wrap">
+                    <svg id="donut" class="donut" viewBox="0 0 120 120" role="img" aria-labelledby="donut-desc"></svg>
+                    <div class="donut-center" aria-hidden="true">
+                      <span class="donut-caption">총 광고비</span>
+                      <strong id="donut-total">-</strong>
+                    </div>
+                    <p id="donut-desc" class="sr-only"></p>
+                  </div>
+                  <ul id="share-legend" class="legend"></ul>
                 </div>
-                <p id="donut-desc" class="sr-only"></p>
-              </div>
-              <ul id="share-legend" class="legend"></ul>
-              </div>
-            </article>
+              </article>
 
-            <article class="card panel" aria-labelledby="platform-title">
-              <h3 id="platform-title" class="panel-title">매체별 지표</h3>
-              <p class="panel-sub">비율 지표는 원본 합계로 계산하며, 분모가 0이면 "-"로 표시합니다.</p>
-              <div class="table-scroll" tabindex="0" role="region" aria-labelledby="platform-title">
-                <table class="data-table">
+              <article class="card panel" aria-labelledby="platform-title">
+                <h3 id="platform-title" class="panel-title">매체별 지표</h3>
+                <p class="panel-sub">비율 지표는 원본 합계로 계산하며, 분모가 0이면 "-"로 표시합니다.</p>
+                <div class="table-scroll" tabindex="0" role="region" aria-labelledby="platform-title">
+                  <table class="data-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">매체</th>
+                        <th scope="col" class="num">광고비</th>
+                        <th scope="col" class="num">전환</th>
+                        <th scope="col" class="num">매출</th>
+                        <th scope="col" class="num">CPA</th>
+                        <th scope="col" class="num">ROAS</th>
+                      </tr>
+                    </thead>
+                    <tbody id="platform-body"></tbody>
+                    <tfoot id="platform-foot"></tfoot>
+                  </table>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <!-- ============ 화면 2: 캠페인 실적 ============ -->
+        <div class="view" data-view-panel="campaigns" hidden>
+          <section id="campaign-section" aria-labelledby="campaign-title">
+            <h2 id="campaign-title" class="sr-only">캠페인 실적 <span id="campaign-count"></span>개</h2>
+            <div class="card table-card">
+              <div class="toolbar">
+                <p class="toolbar-info" id="toolbar-info" aria-hidden="true"></p>
+                <div class="search">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                  <label for="campaign-search" class="sr-only">캠페인명 또는 ID 검색</label>
+                  <input id="campaign-search" type="search" placeholder="캠페인명·ID 검색" autocomplete="off" />
+                </div>
+              </div>
+
+              <!-- 캠페인 표 (문제지 05: 매체·캠페인명·광고비·전환수·ROAS + 노출/클릭·전환 매출 추가)
+                   data-key가 있는 열 제목을 누르면 정렬 (app.js 9번) -->
+              <div class="table-scroll" tabindex="0" role="region" aria-labelledby="campaign-title">
+                <table class="data-table" id="campaign-table">
+                  <caption class="sr-only" id="campaign-caption">캠페인 실적, 광고비 내림차순 정렬</caption>
                   <thead>
                     <tr>
                       <th scope="col">매체</th>
-                      <th scope="col" class="num">광고비</th>
-                      <th scope="col" class="num">전환</th>
-                      <th scope="col" class="num">매출</th>
-                      <th scope="col" class="num">CPA</th>
-                      <th scope="col" class="num">ROAS</th>
+                      <th scope="col" data-key="campaignName"><button type="button" class="th-btn" title="캠페인명으로 정렬">캠페인명</button></th>
+                      <th scope="col" class="num" data-key="cost"><button type="button" class="th-btn" title="광고비로 정렬">광고비</button></th>
+                      <th scope="col" class="num">노출 / 클릭</th>
+                      <th scope="col" class="num" data-key="conversions"><button type="button" class="th-btn" title="전환수로 정렬">전환수</button></th>
+                      <th scope="col" class="num" data-key="revenue"><button type="button" class="th-btn" title="전환 매출로 정렬">전환 매출</button></th>
+                      <th scope="col" class="num" data-key="roas"><button type="button" class="th-btn" title="ROAS로 정렬">ROAS</button></th>
                     </tr>
                   </thead>
-                  <tbody id="platform-body"></tbody>
-                  <tfoot id="platform-foot"></tfoot>
+                  <tbody id="campaign-body"></tbody>
+                  <tfoot id="campaign-foot"></tfoot>
                 </table>
               </div>
-            </article>
-          </div>
-        </section>
-
-       </div>
-
-       <!-- ============ 화면 2: 캠페인 실적 ============ -->
-       <div class="view" data-view-panel="campaigns" hidden>
-        <section id="campaign-section" aria-labelledby="campaign-title">
-          <div class="section-head">
-            <h2 id="campaign-title" class="sr-only">캠페인 실적 <span id="campaign-count"></span>개</h2>
-          </div>
-          <div class="card table-card">
-            <div class="toolbar">
-              <p class="toolbar-info" id="toolbar-info" aria-hidden="true"></p>
-              <div class="search">
-                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <label for="campaign-search" class="sr-only">캠페인명 또는 ID 검색</label>
-                <input id="campaign-search" type="search" placeholder="캠페인명·ID 검색" autocomplete="off" />
-              </div>
             </div>
-            <div class="table-scroll" tabindex="0" role="region" aria-labelledby="campaign-title">
-              <table class="data-table" id="campaign-table">
-                <caption class="sr-only" id="campaign-caption">캠페인 실적, 광고비 많은순 정렬</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">매체</th>
-                    <th scope="col" data-key="campaignName"><button type="button" class="th-btn" title="캠페인명으로 정렬">캠페인명</button></th>
-                    <th scope="col" class="num" data-key="cost"><button type="button" class="th-btn" title="광고비로 정렬">광고비</button></th>
-                    <th scope="col" class="num">노출 / 클릭</th>
-                    <th scope="col" class="num" data-key="conversions"><button type="button" class="th-btn" title="전환수로 정렬">전환수</button></th>
-                    <th scope="col" class="num" data-key="revenue"><button type="button" class="th-btn" title="전환 매출로 정렬">전환 매출</button></th>
-                    <th scope="col" class="num" data-key="roas"><button type="button" class="th-btn" title="ROAS로 정렬">ROAS</button></th>
-                  </tr>
-                </thead>
-                <tbody id="campaign-body"></tbody>
-                <tfoot id="campaign-foot"></tfoot>
-              </table>
-            </div>
-          </div>
-        </section>
-       </div>
+          </section>
+        </div>
+
       </div>
-
     </main>
   </div>
 
+  <!-- 도넛 차트에 마우스를 올리면 뜨는 툴팁 -->
   <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
   <script src="/app.js" type="module"></script>
 </body>
 </html>

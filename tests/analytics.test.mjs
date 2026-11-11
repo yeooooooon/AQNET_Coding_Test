@@ -1,3 +1,9 @@
+/**
+ * src/analytics.js 자체 테스트 (실행: npm test)
+ *
+ *   정규화(02) · summary(03·04·06) · campaigns(03·04) · 입력 검증(03) · 반올림(04) · HTTP 응답(03)
+ * 실제 데이터로 확인할 수 없는 경우(광고비 동점, 같은 ID·다른 매체)는 가짜 데이터를 만들어 검증합니다.
+ */
 import { test, describe, before, after } from 'node:test';
 import { strict as assert } from 'node:assert';
 import { readFileSync } from 'node:fs';
@@ -5,10 +11,12 @@ import {
   getSummary, getCampaigns, normalizeFeeds, round2, InvalidQueryError
 } from '../src/analytics.js';
 
+// 제공된 data/*.json을 server.js와 같은 형태로 읽어 둠
 const load = (p) => JSON.parse(readFileSync(new URL(`../data/${p}.json`, import.meta.url), 'utf8'));
 const feeds = Object.freeze({ naver: load('naver'), meta: load('meta'), google: load('google') });
-const q = (s) => new URLSearchParams(s);
+const q = (s) => new URLSearchParams(s); // 'platform=naver' → 쿼리 파라미터 객체
 
+// 문제지 02: 매체마다 다른 필드를 공통 구조로, 숫자는 모두 number로
 describe('정규화', () => {
   test('모든 매체가 공통 구조로 변환되고 실적 필드는 number 타입이다', () => {
     const rows = normalizeFeeds(feeds);
@@ -40,6 +48,7 @@ describe('정규화', () => {
   });
 });
 
+// 문제지 03·04·06: 전체/매체별 합계와 비율 지표
 describe('GET /api/summary', () => {
   test('필터 없음: 문제지 06 검증값과 일치한다', () => {
     const { totals, byPlatform } = getSummary(feeds, q(''));
@@ -79,8 +88,8 @@ describe('GET /api/summary', () => {
   });
 
   test('비율은 행별 비율의 평균이 아니라 합계로 계산한다', () => {
-    // naver N-101: 11/01 CTR 3.33%, 11/02 CTR 3.67% → 평균 3.5, 합계 기준 420/12000 = 3.5
-    // N-102 포함 naver 전체: 470 / 15000 = 3.13 (행 평균이면 다른 값)
+    // naver 행별 CTR: 3.33%, 3.67%, 2.5%, 0%  → 평균 내면 2.38% (틀린 방법)
+    // 합계로 계산: 클릭 470 / 노출 15,000 × 100 = 3.13% (문제지 04 방식)
     const naver = getSummary(feeds, q('platform=naver')).totals;
     assert.equal(naver.ctr, 3.13);
     assert.equal(naver.cpa, 12000); // 240000 / 20
@@ -91,6 +100,7 @@ describe('GET /api/summary', () => {
   });
 });
 
+// 문제지 03·04: 캠페인별 합산(platform + campaignId) 및 정렬
 describe('GET /api/campaigns', () => {
   test('platform+campaignId 기준으로 합산되고 광고비 내림차순으로 정렬된다', () => {
     const { count, items } = getCampaigns(feeds, q(''));
@@ -105,6 +115,7 @@ describe('GET /api/campaigns', () => {
   });
 
   test('광고비 동점이면 platform → campaignId 사전순으로 정렬한다', () => {
+    // 실제 데이터엔 광고비가 같은 캠페인이 없어서, 광고비 100원짜리 3개를 직접 만들어 확인
     const row = (id) => ({ date: '2026-11-01', campaign_id: id, campaign_name: id, impressions: 1, clicks: 1, cost: 100, conversions: 0, revenue: 0 });
     const tie = {
       naver: [row('N-2'), row('N-1')],
@@ -137,6 +148,8 @@ describe('GET /api/campaigns', () => {
   });
 });
 
+// 문제지 03: 잘못된 날짜·매체·start > end → 400 (InvalidQueryError)
+// 같은 검사를 여러 입력값으로 반복하기 위해 목록 + 반복문으로 작성
 describe('입력 검증', () => {
   const invalid = [
     ['형식 오류 날짜', 'start=2026/11/01'],
@@ -159,8 +172,10 @@ describe('입력 검증', () => {
   });
 });
 
+// 문제지 04: 소수 둘째 자리 반올림
 describe('round2', () => {
   test('소수 둘째 자리 반올림 (부동소수 오차 보정)', () => {
+    // Math.round(1.005 * 100) / 100 은 1이 나오는 문제를 피했는지 확인
     assert.equal(round2(1.005), 1.01);
     assert.equal(round2(428.5714), 428.57);
     assert.equal(round2(2.578947), 2.58);
@@ -168,9 +183,11 @@ describe('round2', () => {
   });
 });
 
+// 실제 서버를 띄워서 HTTP 상태 코드와 응답 형식까지 확인
 describe('HTTP 서버', () => {
   let server;
   let base;
+  // 포트 0 = 비어 있는 아무 포트 (npm start로 3000번이 이미 쓰여도 충돌하지 않음)
   before(async () => {
     ({ server } = await import('../server.js'));
     await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
