@@ -1,0 +1,4 @@
+[
+  {"date":"2026-11-01","id":"G-301","campaign":"영상 디스플레이","metrics":{"impressions":5000,"clicks":120,"cost_micros":40000000000,"conversions":3,"conversion_value":100000}},
+  {"date":"2026-11-02","id":"G-301","campaign":"영상 디스플레이","metrics":{"impressions":4000,"clicks":100,"cost_micros":50000000000,"conversions":3,"conversion_value":150000}}
+]

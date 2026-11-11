@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AQNET 광고 성과 통합 실습</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <p class="eyebrow">AQNET / CODING TEST</p>
+    <h1>광고 성과 통합 대시보드</h1>
+    <p class="sub">가상 광고 데이터 3개 매체를 통합하여 조회하세요.</p>
+    <form id="filter-form">
+      <label>시작일 <input id="start" type="date" /></label>
+      <label>종료일 <input id="end" type="date" /></label>
+      <label>매체 <select id="platform"><option value="">전체</option><option value="naver">Naver</option><option value="meta">Meta</option><option value="google">Google</option></select></label>
+      <button type="submit">조회</button>
+    </form>
+    <p id="status" role="status">필터를 연결하고 API 결과를 표시하세요.</p>
+    <section>
+      <h2>전체 요약</h2>
+      <div id="summary" class="summary">API 연동 전</div>
+    </section>
+    <section>
+      <h2>캠페인별 실적</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>매체</th><th>캠페인명</th><th>광고비</th><th>전환</th><th>ROAS</th></tr></thead>
+          <tbody id="campaign-body"><tr><td colspan="5">API 연동 전</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

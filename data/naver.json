@@ -1,0 +1,6 @@
+[
+  {"date":"2026-11-01","campaign_id":"N-101","campaign_name":"브랜드 검색 A","impressions":6000,"clicks":200,"cost":120000,"conversions":8,"revenue":320000},
+  {"date":"2026-11-02","campaign_id":"N-101","campaign_name":"브랜드 검색 A","impressions":6000,"clicks":220,"cost":90000,"conversions":10,"revenue":440000},
+  {"date":"2026-11-01","campaign_id":"N-102","campaign_name":"일반 키워드 B","impressions":2000,"clicks":50,"cost":30000,"conversions":2,"revenue":80000},
+  {"date":"2026-11-01","campaign_id":"N-999","campaign_name":"무료 노출 테스트","impressions":1000,"clicks":0,"cost":0,"conversions":0,"revenue":0}
+]
