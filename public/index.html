@@ -17,17 +17,17 @@
       <label>매체 <select id="platform"><option value="">전체</option><option value="naver">Naver</option><option value="meta">Meta</option><option value="google">Google</option></select></label>
       <button type="submit">조회</button>
     </form>
-    <p id="status" role="status">필터를 연결하고 API 결과를 표시하세요.</p>
+    <p id="status" role="status" aria-live="polite"></p>
     <section>
       <h2>전체 요약</h2>
-      <div id="summary" class="summary">API 연동 전</div>
+      <div id="summary" class="summary">불러오는 중…</div>
     </section>
     <section>
       <h2>캠페인별 실적</h2>
       <div class="table-scroll">
         <table>
-          <thead><tr><th>매체</th><th>캠페인명</th><th>광고비</th><th>전환</th><th>ROAS</th></tr></thead>
-          <tbody id="campaign-body"><tr><td colspan="5">API 연동 전</td></tr></tbody>
+          <thead><tr><th>매체</th><th>캠페인명</th><th class="num">광고비</th><th class="num">전환</th><th class="num">ROAS</th></tr></thead>
+          <tbody id="campaign-body"><tr><td colspan="5">불러오는 중…</td></tr></tbody>
         </table>
       </div>
     </section>
