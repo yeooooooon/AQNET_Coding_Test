@@ -18,7 +18,7 @@ function sendJson(res, status, data) {
   res.end(JSON.stringify(data));
 }
 
-const server = http.createServer(async (req, res) => {
+export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
     if (req.method !== 'GET') return sendJson(res, 405, {error: 'METHOD_NOT_ALLOWED'});
@@ -45,4 +45,8 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, '127.0.0.1', () => console.log(`AQNET test server: http://localhost:${port}`));
+// 테스트에서 import할 때는 listen하지 않고, `node server.js`로 직접 실행할 때만 서버를 띄웁니다.
+const samePath = (a, b) => process.platform === 'win32' ? a.toLowerCase() === b.toLowerCase() : a === b;
+if (process.argv[1] && samePath(path.resolve(process.argv[1]), fileURLToPath(import.meta.url))) {
+  server.listen(port, '127.0.0.1', () => console.log(`AQNET test server: http://localhost:${port}`));
+}
