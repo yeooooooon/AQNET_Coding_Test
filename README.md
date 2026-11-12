@@ -11,7 +11,7 @@ Naver · Meta · Google 광고 데이터를 공통 구조로 정규화하고, �
 | 실행 | `npm start` |
 | 화면 | http://localhost:3000 (성과 요약) · http://localhost:3000/#campaigns (캠페인 실적)<br>API와 같은 서버·포트에서 제공 → CORS·프록시 설정 불필요 |
 | 테스트 | `npm test` (44개) |
-| 평가 대상 커밋 | (제출 시 기재) |
+| 평가 대상 커밋 | `c3de542d173ad7517c01c06958a816415a0a5622` (`main`) |
 
 **PORT, DATA_DIR 변경**
 
