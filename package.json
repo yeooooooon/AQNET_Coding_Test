@@ -2,10 +2,12 @@
   "name": "aqnet-coding-test",
   "private": true,
   "type": "module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "start": "node server.js",
     "test": "node --test"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=24"
+  }
 }
