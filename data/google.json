@@ -1,4 +1,6721 @@
 [
-  {"date":"2026-11-01","id":"G-301","campaign":"영상 디스플레이","metrics":{"impressions":5000,"clicks":120,"cost_micros":40000000000,"conversions":3,"conversion_value":100000}},
-  {"date":"2026-11-02","id":"G-301","campaign":"영상 디스플레이","metrics":{"impressions":4000,"clicks":100,"cost_micros":50000000000,"conversions":3,"conversion_value":150000}}
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": null,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 14271,
+      "clicks": 488,
+      "cost_micros": 259128000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 8000,
+      "clicks": 200,
+      "cost_micros": 201000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 0,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 0,
+      "conversions": 1,
+      "conversions_value": 17000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 14260,
+      "clicks": 1198,
+      "cost_micros": 773908000000,
+      "conversions": 38,
+      "conversions_value": 2590650
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 3628,
+      "clicks": 251,
+      "cost_micros": 134787000000,
+      "conversions": 7,
+      "conversions_value": 462679
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 5960,
+      "clicks": 172,
+      "cost_micros": 80668000000,
+      "conversions": 9,
+      "conversions_value": 501561
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 18573,
+      "clicks": 2054,
+      "cost_micros": 969488000000,
+      "conversions": 69,
+      "conversions_value": 3465387
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 15496,
+      "clicks": 1709,
+      "cost_micros": 350345000000,
+      "conversions": 59,
+      "conversions_value": 4463586
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 10320,
+      "clicks": 438,
+      "cost_micros": 84972000000,
+      "conversions": 21,
+      "conversions_value": 640227
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 12010,
+      "clicks": 1105,
+      "cost_micros": 476255000000,
+      "conversions": 77,
+      "conversions_value": 4478936
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 12664,
+      "clicks": 952,
+      "cost_micros": 476000000000,
+      "conversions": 66,
+      "conversions_value": 1504932
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 11988,
+      "clicks": 116,
+      "cost_micros": 71920000000,
+      "conversions": 1,
+      "conversions_value": 51969
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 8597,
+      "clicks": 390,
+      "cost_micros": 202020000000,
+      "conversions": 9,
+      "conversions_value": 303462
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 12986,
+      "clicks": 919,
+      "cost_micros": 353815000000,
+      "conversions": 32,
+      "conversions_value": 1655808
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 5008,
+      "clicks": 495,
+      "cost_micros": 65835000000,
+      "conversions": 9,
+      "conversions_value": 302535
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 1433,
+      "clicks": 7,
+      "cost_micros": 581000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 2895,
+      "clicks": 270,
+      "cost_micros": 157140000000,
+      "conversions": 6,
+      "conversions_value": 116244
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-21"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": null
+    },
+    "metrics": {
+      "impressions": 8375,
+      "clicks": 4,
+      "cost_micros": 1440000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 10360,
+      "clicks": 67,
+      "cost_micros": 31892000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 4607,
+      "clicks": 269,
+      "cost_micros": 132617000000,
+      "conversions": 15,
+      "conversions_value": 854250
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 10109,
+      "clicks": 718,
+      "cost_micros": 228324000000,
+      "conversions": 23,
+      "conversions_value": 1227993
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 9562,
+      "clicks": 867,
+      "cost_micros": 211548000000,
+      "conversions": 52,
+      "conversions_value": 3887988
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 19182,
+      "clicks": 1375,
+      "cost_micros": 424875000000,
+      "conversions": 32,
+      "conversions_value": 1832032
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 15115,
+      "clicks": 1117,
+      "cost_micros": 216698000000,
+      "conversions": 83,
+      "conversions_value": 1826830
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 8956,
+      "clicks": 509,
+      "cost_micros": 256027000000,
+      "conversions": 25,
+      "conversions_value": 781525
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 13797,
+      "clicks": 1337,
+      "cost_micros": 517419000000,
+      "conversions": 85,
+      "conversions_value": 1453415
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 4447,
+      "clicks": 140,
+      "cost_micros": 32760000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 4273,
+      "clicks": 92,
+      "cost_micros": 35420000000,
+      "conversions": 5,
+      "conversions_value": 179840
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 2662,
+      "clicks": 328,
+      "cost_micros": 179416000000,
+      "conversions": 19,
+      "conversions_value": 598709
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 6103,
+      "clicks": 653,
+      "cost_micros": 155414000000,
+      "conversions": 40,
+      "conversions_value": 1588680
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 2845,
+      "clicks": 117,
+      "cost_micros": 70902000000,
+      "conversions": 8,
+      "conversions_value": 446280
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 13077,
+      "clicks": 5,
+      "cost_micros": 3105000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 12568,
+      "clicks": 546,
+      "cost_micros": 264810000000,
+      "conversions": 42,
+      "conversions_value": 2286480
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 9308,
+      "clicks": 59,
+      "cost_micros": 12803000000,
+      "conversions": 1,
+      "conversions_value": 27200
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 18716,
+      "clicks": 967,
+      "cost_micros": 136347000000,
+      "conversions": 25,
+      "conversions_value": 1819275
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 15638,
+      "clicks": 219,
+      "cost_micros": 111690000000,
+      "conversions": 13,
+      "conversions_value": 759330
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 5937,
+      "clicks": 41,
+      "cost_micros": 15006000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 6518,
+      "clicks": 41,
+      "cost_micros": 7052000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 18490,
+      "clicks": 1064,
+      "cost_micros": 446880000000,
+      "conversions": 38,
+      "conversions_value": 2848860
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 16157,
+      "clicks": 868,
+      "cost_micros": 385392000000,
+      "conversions": 63,
+      "conversions_value": 3317391
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 2678,
+      "clicks": 273,
+      "cost_micros": 154518000000,
+      "conversions": 7,
+      "conversions_value": 115626
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 3941,
+      "clicks": 323,
+      "cost_micros": 62662000000,
+      "conversions": 9,
+      "conversions_value": 342117
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 11369,
+      "clicks": 1158,
+      "cost_micros": 170226000000,
+      "conversions": 42,
+      "conversions_value": 3261468
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 10124,
+      "clicks": "  232  ",
+      "cost_micros": 158688000000,
+      "conversions": 7,
+      "conversions_value": 133119
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 9842,
+      "clicks": 1063,
+      "cost_micros": 409255000000,
+      "conversions": 74,
+      "conversions_value": 3317938
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 18849,
+      "clicks": 64,
+      "cost_micros": 29184000000,
+      "conversions": 1,
+      "conversions_value": 21879
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 13205,
+      "clicks": 1149,
+      "cost_micros": 242439000000,
+      "conversions": 51,
+      "conversions_value": 3691737
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 1287,
+      "clicks": 113,
+      "cost_micros": 44974000000,
+      "conversions": 4,
+      "conversions_value": 138148
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 8189,
+      "clicks": 592,
+      "cost_micros": 78736000000,
+      "conversions": 38,
+      "conversions_value": 822206
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 13417,
+      "clicks": 1482,
+      "cost_micros": 165984000000,
+      "conversions": 39,
+      "conversions_value": 2301702
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 15827,
+      "clicks": 1249,
+      "cost_micros": 502098000000,
+      "conversions": 50,
+      "conversions_value": 2144950
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 19204,
+      "clicks": 709,
+      "cost_micros": 275801000000,
+      "conversions": 48,
+      "conversions_value": 3410880
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 15297,
+      "clicks": 187,
+      "cost_micros": 110891000000,
+      "conversions": 3,
+      "conversions_value": 65913
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 10945,
+      "clicks": 359,
+      "cost_micros": 230119000000,
+      "conversions": 2,
+      "conversions_value": 40978
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 19787,
+      "clicks": 1376,
+      "cost_micros": 309600000000,
+      "conversions": 82,
+      "conversions_value": 5840696
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 10314,
+      "clicks": 352,
+      "cost_micros": 75680000000,
+      "conversions": 11,
+      "conversions_value": 782177
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 4848,
+      "clicks": 84,
+      "cost_micros": 12600000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 12434,
+      "clicks": 215,
+      "cost_micros": 70090000000,
+      "conversions": 1,
+      "conversions_value": 75572
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 12245,
+      "clicks": 113,
+      "cost_micros": 18193000000,
+      "conversions": 4,
+      "conversions_value": 289064
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 4611,
+      "clicks": 333,
+      "cost_micros": 39960000000,
+      "conversions": 17,
+      "conversions_value": 364123
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 4429,
+      "clicks": 198,
+      "cost_micros": 64350000000,
+      "conversions": 7,
+      "conversions_value": 527422
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 6948,
+      "clicks": 483,
+      "cost_micros": 41055000000,
+      "conversions": 5,
+      "conversions_value": 287540
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 17447,
+      "clicks": 470,
+      "cost_micros": 95410000000,
+      "conversions": 8,
+      "conversions_value": 288760
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 11955,
+      "clicks": 1127,
+      "cost_micros": 623231000000,
+      "conversions": 24,
+      "conversions_value": 1749816
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 5862,
+      "clicks": 16,
+      "cost_micros": 2112000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 7771,
+      "clicks": 206,
+      "cost_micros": 81164000000,
+      "conversions": 7,
+      "conversions_value": 172200
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 8336,
+      "clicks": 11,
+      "cost_micros": 3256000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 16506,
+      "clicks": 1777,
+      "cost_micros": 476236000000,
+      "conversions": 65,
+      "conversions_value": 2934685
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 16756,
+      "clicks": 322,
+      "cost_micros": 182896000000,
+      "conversions": 6,
+      "conversions_value": 167382
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 17396,
+      "clicks": 22,
+      "cost_micros": 5434000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 19989,
+      "clicks": 215,
+      "cost_micros": 58910000000,
+      "conversions": 14,
+      "conversions_value": 908782
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 12396,
+      "clicks": 1123,
+      "cost_micros": 505350000000,
+      "conversions": 30,
+      "conversions_value": 1722180
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 1404,
+      "clicks": 17,
+      "cost_micros": 3740000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 3756,
+      "clicks": 399,
+      "cost_micros": 272118000000,
+      "conversions": 2,
+      "conversions_value": 111826
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-24"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 9531,
+      "clicks": 282,
+      "cost_micros": 153690000000,
+      "conversions": 5,
+      "conversions_value": 332890
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 9624,
+      "clicks": 665,
+      "cost_micros": 284620000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 9933,
+      "clicks": 486,
+      "cost_micros": 101574000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 8684,
+      "clicks": 55,
+      "cost_micros": 25080000000,
+      "conversions": 1,
+      "conversions_value": 71220
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 6706,
+      "clicks": 13,
+      "cost_micros": 8671000000,
+      "conversions": 1,
+      "conversions_value": 43466
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 5936,
+      "clicks": 659,
+      "cost_micros": 121256000000,
+      "conversions": 9,
+      "conversions_value": 401517
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 14994,
+      "clicks": 853,
+      "cost_micros": 168041000000,
+      "conversions": 28,
+      "conversions_value": 1978508
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 10012,
+      "clicks": 568,
+      "cost_micros": 165288000000,
+      "conversions": 36,
+      "conversions_value": 535536
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 1768,
+      "clicks": 133,
+      "cost_micros": 89908000000,
+      "conversions": 8,
+      "conversions_value": 506936
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 8531,
+      "clicks": 871,
+      "cost_micros": 591409000000,
+      "conversions": 10,
+      "conversions_value": 612720
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 19243,
+      "clicks": 449,
+      "cost_micros": 268053000000,
+      "conversions": 24,
+      "conversions_value": 1021128
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 17400,
+      "clicks": 927,
+      "cost_micros": 517266000000,
+      "conversions": 42,
+      "conversions_value": 2613954
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 18644,
+      "clicks": 1389,
+      "cost_micros": 162513000000,
+      "conversions": 22,
+      "conversions_value": 1095710
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 10587,
+      "clicks": 78,
+      "cost_micros": 34320000000,
+      "conversions": 1,
+      "conversions_value": 56462
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 18966,
+      "clicks": 1208,
+      "cost_micros": 727216000000,
+      "conversions": 35,
+      "conversions_value": 694190
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 9869,
+      "clicks": 1128,
+      "cost_micros": 376752000000,
+      "conversions": 42,
+      "conversions_value": 1753584
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 1900,
+      "clicks": 139,
+      "cost_micros": 24047000000,
+      "conversions": 10,
+      "conversions_value": 608050
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 5917,
+      "clicks": 720,
+      "cost_micros": 413280000000,
+      "conversions": 17,
+      "conversions_value": 308159
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 13048,
+      "clicks": 238,
+      "cost_micros": 101626000000,
+      "conversions": 19,
+      "conversions_value": 904932
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-25"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 2956,
+      "clicks": 140,
+      "cost_micros": 35140000000,
+      "conversions": 11,
+      "conversions_value": 513205
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 1704,
+      "clicks": 136,
+      "cost_micros": 45152000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 853,
+      "clicks": 89,
+      "cost_micros": 30616000000,
+      "conversions": 2,
+      "conversions_value": 53218
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 3565,
+      "clicks": 196,
+      "cost_micros": 88984000000,
+      "conversions": 11,
+      "conversions_value": 371657
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 11304,
+      "clicks": 104,
+      "cost_micros": 24544000000,
+      "conversions": 5,
+      "conversions_value": 259650
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 17463,
+      "clicks": 1905,
+      "cost_micros": 1282065000000,
+      "conversions": 101,
+      "conversions_value": 1904153
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 10294,
+      "clicks": 863,
+      "cost_micros": 169148000000,
+      "conversions": 47,
+      "conversions_value": 2395449
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 18631,
+      "clicks": 1892,
+      "cost_micros": 669768000000,
+      "conversions": 144,
+      "conversions_value": 3417120
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 19873,
+      "clicks": 913,
+      "cost_micros": 330506000000,
+      "conversions": 20,
+      "conversions_value": 391300
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 16979,
+      "clicks": 2031,
+      "cost_micros": 209193000000,
+      "conversions": 71,
+      "conversions_value": 2249280
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 4151,
+      "clicks": 270,
+      "cost_micros": 43740000000,
+      "conversions": 13,
+      "conversions_value": 361751
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 5989,
+      "clicks": 318,
+      "cost_micros": 111300000000,
+      "conversions": 14,
+      "conversions_value": 615762
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 2917,
+      "clicks": 99,
+      "cost_micros": 50886000000,
+      "conversions": 7,
+      "conversions_value": 422023
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 10743,
+      "clicks": 417,
+      "cost_micros": 134274000000,
+      "conversions": 27,
+      "conversions_value": 1296000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 7071,
+      "clicks": 70,
+      "cost_micros": 28910000000,
+      "conversions": 5,
+      "conversions_value": 258365
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 10733,
+      "clicks": 352,
+      "cost_micros": 95040000000,
+      "conversions": 26,
+      "conversions_value": 1279096
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 16858,
+      "clicks": 664,
+      "cost_micros": 256304000000,
+      "conversions": 47,
+      "conversions_value": 2768065
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 938,
+      "clicks": 76,
+      "cost_micros": 28196000000,
+      "conversions": 2,
+      "conversions_value": 155740
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 7510,
+      "clicks": 684,
+      "cost_micros": 346104000000,
+      "conversions": 46,
+      "conversions_value": 2373646
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-26"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": null
+    },
+    "metrics": {
+      "impressions": 7424,
+      "clicks": 599,
+      "cost_micros": 55707000000,
+      "conversions": 43,
+      "conversions_value": 2651208
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 19549,
+      "clicks": 1795,
+      "cost_micros": 773645000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 15249,
+      "clicks": 1160,
+      "cost_micros": 162400000000,
+      "conversions": 66,
+      "conversions_value": 2498892
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 8069,
+      "clicks": 267,
+      "cost_micros": 135636000000,
+      "conversions": 1,
+      "conversions_value": 37934
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 19432,
+      "clicks": 1048,
+      "cost_micros": 357368000000,
+      "conversions": 56,
+      "conversions_value": 2409344
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 16712,
+      "clicks": 1303,
+      "cost_micros": 351810000000,
+      "conversions": 2,
+      "conversions_value": 68288
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 1519,
+      "clicks": 12,
+      "cost_micros": 6096000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 19978,
+      "clicks": 2109,
+      "cost_micros": 1389831000000,
+      "conversions": 100,
+      "conversions_value": 3956700
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 662,
+      "clicks": 4,
+      "cost_micros": 1172000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 7530,
+      "clicks": 21,
+      "cost_micros": 12516000000,
+      "conversions": 1,
+      "conversions_value": 48379
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 15084,
+      "clicks": 503,
+      "cost_micros": 213775000000,
+      "conversions": 25,
+      "conversions_value": 771550
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 7977,
+      "clicks": 246,
+      "cost_micros": 34932000000,
+      "conversions": 15,
+      "conversions_value": 767385
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 4732,
+      "clicks": 265,
+      "cost_micros": 90895000000,
+      "conversions": 7,
+      "conversions_value": 173236
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 5269,
+      "clicks": 266,
+      "cost_micros": 112518000000,
+      "conversions": 15,
+      "conversions_value": 752625
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 1550,
+      "clicks": 19,
+      "cost_micros": 5434000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 15193,
+      "clicks": 921,
+      "cost_micros": 207225000000,
+      "conversions": 71,
+      "conversions_value": 3948452
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 13527,
+      "clicks": 365,
+      "cost_micros": 237980000000,
+      "conversions": 15,
+      "conversions_value": 1157880
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 10153,
+      "clicks": 247,
+      "cost_micros": 83486000000,
+      "conversions": 12,
+      "conversions_value": 254136
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 10873,
+      "clicks": 340,
+      "cost_micros": 73440000000,
+      "conversions": 24,
+      "conversions_value": 1402992
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-27"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 15239,
+      "clicks": 1428,
+      "cost_micros": 402696000000,
+      "conversions": 74,
+      "conversions_value": 1404446
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 6710,
+      "clicks": 412,
+      "cost_micros": 238136000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 11468,
+      "clicks": 901,
+      "cost_micros": 82892000000,
+      "conversions": 49,
+      "conversions_value": 1795213
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 13022,
+      "clicks": 885,
+      "cost_micros": 167265000000,
+      "conversions": 36,
+      "conversions_value": 1147860
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 19261,
+      "clicks": 726,
+      "cost_micros": 392040000000,
+      "conversions": 3,
+      "conversions_value": 48129
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 2800,
+      "clicks": 153,
+      "cost_micros": 29376000000,
+      "conversions": 6,
+      "conversions_value": 250818
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 5810,
+      "clicks": 393,
+      "cost_micros": 154449000000,
+      "conversions": 12,
+      "conversions_value": 537300
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 16601,
+      "clicks": 2071,
+      "cost_micros": 1178399000000,
+      "conversions": 25,
+      "conversions_value": 1892750
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 6365,
+      "clicks": 716,
+      "cost_micros": 285684000000,
+      "conversions": 49,
+      "conversions_value": 3371739
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 5509,
+      "clicks": 360,
+      "cost_micros": 240120000000,
+      "conversions": 24,
+      "conversions_value": 1001112
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 10373,
+      "clicks": 890,
+      "cost_micros": 113030000000,
+      "conversions": 66,
+      "conversions_value": 2944788
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 11634,
+      "clicks": 218,
+      "cost_micros": 60168000000,
+      "conversions": 5,
+      "conversions_value": 240560
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 5866,
+      "clicks": 723,
+      "cost_micros": 103389000000,
+      "conversions": 24,
+      "conversions_value": 1708584
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 4104,
+      "clicks": 362,
+      "cost_micros": 50318000000,
+      "conversions": 16,
+      "conversions_value": 796672
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 10091,
+      "clicks": 1213,
+      "cost_micros": 691410000000,
+      "conversions": 30,
+      "conversions_value": 1220520
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 6743,
+      "clicks": 708,
+      "cost_micros": 151512000000,
+      "conversions": 17,
+      "conversions_value": 619599
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 2757,
+      "clicks": 194,
+      "cost_micros": 45978000000,
+      "conversions": 16,
+      "conversions_value": 1147472
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 11137,
+      "clicks": 1150,
+      "cost_micros": 794650000000,
+      "conversions": 65,
+      "conversions_value": 2054910
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 14723,
+      "clicks": 1684,
+      "cost_micros": 537196000000,
+      "conversions": 29,
+      "conversions_value": 527655
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-28"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 16612,
+      "clicks": 705,
+      "cost_micros": 368715000000,
+      "conversions": 38,
+      "conversions_value": 992940
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 9109,
+      "clicks": 749,
+      "cost_micros": 168525000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 18287,
+      "clicks": 1806,
+      "cost_micros": 711564000000,
+      "conversions": 127,
+      "conversions_value": 2138807
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 1844,
+      "clicks": 158,
+      "cost_micros": 41080000000,
+      "conversions": 8,
+      "conversions_value": 341352
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 12895,
+      "clicks": 267,
+      "cost_micros": 55803000000,
+      "conversions": 7,
+      "conversions_value": 207088
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 9208,
+      "clicks": 481,
+      "cost_micros": 302068000000,
+      "conversions": 1,
+      "conversions_value": 62539
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 9013,
+      "clicks": 704,
+      "cost_micros": 85888000000,
+      "conversions": 42,
+      "conversions_value": 1835610
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 19332,
+      "clicks": 237,
+      "cost_micros": 161397000000,
+      "conversions": 14,
+      "conversions_value": 338030
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 6688,
+      "clicks": 826,
+      "cost_micros": 503034000000,
+      "conversions": 59,
+      "conversions_value": 1813129
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 13841,
+      "clicks": 418,
+      "cost_micros": 203566000000,
+      "conversions": 25,
+      "conversions_value": 1411225
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 16145,
+      "clicks": 566,
+      "cost_micros": 176592000000,
+      "conversions": 30,
+      "conversions_value": 1237290
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 2225,
+      "clicks": 106,
+      "cost_micros": 8480000000,
+      "conversions": 1,
+      "conversions_value": 72204
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 3600,
+      "clicks": 157,
+      "cost_micros": 27318000000,
+      "conversions": 1,
+      "conversions_value": 39105
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 4195,
+      "clicks": 421,
+      "cost_micros": 134299000000,
+      "conversions": 2,
+      "conversions_value": 125530
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 11281,
+      "clicks": 737,
+      "cost_micros": 460625000000,
+      "conversions": 56,
+      "conversions_value": 1417360
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 11708,
+      "clicks": 152,
+      "cost_micros": 84664000000,
+      "conversions": 11,
+      "conversions_value": 860112
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 4224,
+      "clicks": 140,
+      "cost_micros": 59500000000,
+      "conversions": 7,
+      "conversions_value": 139356
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 4474,
+      "clicks": 302,
+      "cost_micros": 80332000000,
+      "conversions": 8,
+      "conversions_value": 309112
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 5812,
+      "clicks": 671,
+      "cost_micros": 57035000000,
+      "conversions": 51,
+      "conversions_value": 1511232
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-29"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 10583,
+      "clicks": 1055,
+      "cost_micros": 144535000000,
+      "conversions": 3,
+      "conversions_value": 195546
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 7083,
+      "clicks": 732,
+      "cost_micros": 290604000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 16083,
+      "clicks": 2006,
+      "cost_micros": 1083240000000,
+      "conversions": 167,
+      "conversions_value": 4785886
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 1819,
+      "clicks": 75,
+      "cost_micros": 33900000000,
+      "conversions": 2,
+      "conversions_value": 152666
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 19638,
+      "clicks": 607,
+      "cost_micros": 180886000000,
+      "conversions": 4,
+      "conversions_value": 239492
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 10567,
+      "clicks": 841,
+      "cost_micros": 441525000000,
+      "conversions": 62,
+      "conversions_value": 4893474
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 2350,
+      "clicks": 26,
+      "cost_micros": 10686000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 12895,
+      "clicks": 213,
+      "cost_micros": 104157000000,
+      "conversions": 13,
+      "conversions_value": 468884
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 13843,
+      "clicks": 249,
+      "cost_micros": 158364000000,
+      "conversions": 5,
+      "conversions_value": 249865
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 13888,
+      "clicks": 452,
+      "cost_micros": 287020000000,
+      "conversions": 35,
+      "conversions_value": 763210
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 1022,
+      "clicks": 74,
+      "cost_micros": 32560000000,
+      "conversions": 6,
+      "conversions_value": 228996
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 3763,
+      "clicks": 352,
+      "cost_micros": 215072000000,
+      "conversions": 20,
+      "conversions_value": 767080
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 4927,
+      "clicks": 298,
+      "cost_micros": 119200000000,
+      "conversions": 19,
+      "conversions_value": 1432011
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 6665,
+      "clicks": 686,
+      "cost_micros": 162582000000,
+      "conversions": 15,
+      "conversions_value": 600120
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 5927,
+      "clicks": 197,
+      "cost_micros": 37233000000,
+      "conversions": 15,
+      "conversions_value": 342660
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 13142,
+      "clicks": 1471,
+      "cost_micros": 854651000000,
+      "conversions": 31,
+      "conversions_value": 1698583
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 13659,
+      "clicks": 703,
+      "cost_micros": 135679000000,
+      "conversions": 16,
+      "conversions_value": 284384
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 18929,
+      "clicks": 12,
+      "cost_micros": 5928000000,
+      "conversions": 1,
+      "conversions_value": 45706
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 8437,
+      "clicks": 1006,
+      "cost_micros": 205224000000,
+      "conversions": 40,
+      "conversions_value": 1363960
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-30"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 14041,
+      "clicks": 1351,
+      "cost_micros": 371525000000,
+      "conversions": 2,
+      "conversions_value": 85112
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 2038,
+      "clicks": 227,
+      "cost_micros": 46989000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 13994,
+      "clicks": 1660,
+      "cost_micros": 132800000000,
+      "conversions": 79,
+      "conversions_value": 1186580
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 1230,
+      "clicks": 123,
+      "cost_micros": 61254000000,
+      "conversions": 9,
+      "conversions_value": 210735
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 7158,
+      "clicks": 395,
+      "cost_micros": 181305000000,
+      "conversions": 18,
+      "conversions_value": 1307250
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 2290,
+      "clicks": 29,
+      "cost_micros": 9193000000,
+      "conversions": 1,
+      "conversions_value": 43631
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 2863,
+      "clicks": 87,
+      "cost_micros": 39498000000,
+      "conversions": 7,
+      "conversions_value": 444010
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 9277,
+      "clicks": 1090,
+      "cost_micros": 495950000000,
+      "conversions": 44,
+      "conversions_value": 1112628
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 6610,
+      "clicks": 716,
+      "cost_micros": 378764000000,
+      "conversions": 7,
+      "conversions_value": 103628
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 11989,
+      "clicks": 375,
+      "cost_micros": 187500000000,
+      "conversions": 20,
+      "conversions_value": 844900
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 11984,
+      "clicks": 380,
+      "cost_micros": 220780000000,
+      "conversions": 27,
+      "conversions_value": 1670247
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 13683,
+      "clicks": 855,
+      "cost_micros": 595935000000,
+      "conversions": 30,
+      "conversions_value": 1742490
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 9471,
+      "clicks": 776,
+      "cost_micros": 214176000000,
+      "conversions": 8,
+      "conversions_value": 467856
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 13483,
+      "clicks": 436,
+      "cost_micros": 299968000000,
+      "conversions": 24,
+      "conversions_value": 1862952
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 14590,
+      "clicks": 17,
+      "cost_micros": 11152000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 18244,
+      "clicks": 788,
+      "cost_micros": 338052000000,
+      "conversions": 33,
+      "conversions_value": 520542
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 11055,
+      "clicks": 292,
+      "cost_micros": 182500000000,
+      "conversions": 22,
+      "conversions_value": 607860
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 14860,
+      "clicks": 1468,
+      "cost_micros": 538756000000,
+      "conversions": 91,
+      "conversions_value": 2545179
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 13988,
+      "clicks": 987,
+      "cost_micros": 227010000000,
+      "conversions": 74,
+      "conversions_value": 2657636
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-31"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": null
+    },
+    "metrics": {
+      "impressions": 1028,
+      "clicks": 111,
+      "cost_micros": 25530000000,
+      "conversions": 6,
+      "conversions_value": 233472
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 2069,
+      "clicks": 249,
+      "cost_micros": 152637000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 6116,
+      "clicks": 91,
+      "cost_micros": 50778000000,
+      "conversions": 2,
+      "conversions_value": 99430
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 1653,
+      "clicks": 142,
+      "cost_micros": 43168000000,
+      "conversions": 9,
+      "conversions_value": 143109
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 13452,
+      "clicks": 736,
+      "cost_micros": 125856000000,
+      "conversions": 59,
+      "conversions_value": 1375998
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 4362,
+      "clicks": 207,
+      "cost_micros": 72864000000,
+      "conversions": 12,
+      "conversions_value": 540156
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 13022,
+      "clicks": 853,
+      "cost_micros": 217515000000,
+      "conversions": 20,
+      "conversions_value": 496440
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 9175,
+      "clicks": 805,
+      "cost_micros": 486220000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 17206,
+      "clicks": 1160,
+      "cost_micros": 263320000000,
+      "conversions": 96,
+      "conversions_value": 5667264
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 11793,
+      "clicks": 1192,
+      "cost_micros": 272968000000,
+      "conversions": 28,
+      "conversions_value": 1795416
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 12607,
+      "clicks": 175,
+      "cost_micros": 72975000000,
+      "conversions": 6,
+      "conversions_value": 188118
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 4685,
+      "clicks": 576,
+      "cost_micros": 400320000000,
+      "conversions": 28,
+      "conversions_value": 1723960
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 16696,
+      "clicks": 1829,
+      "cost_micros": 916329000000,
+      "conversions": 127,
+      "conversions_value": 6931660
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 2704,
+      "clicks": 20,
+      "cost_micros": 6840000000,
+      "conversions": 1,
+      "conversions_value": 21926
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 6132,
+      "clicks": 498,
+      "cost_micros": 216630000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 10906,
+      "clicks": 1344,
+      "cost_micros": 697536000000,
+      "conversions": 53,
+      "conversions_value": 2154821
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 5715,
+      "clicks": 714,
+      "cost_micros": 114240000000,
+      "conversions": 45,
+      "conversions_value": 2368395
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 3503,
+      "clicks": 94,
+      "cost_micros": 12126000000,
+      "conversions": 7,
+      "conversions_value": 384349
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 17591,
+      "clicks": 1180,
+      "cost_micros": 101480000000,
+      "conversions": 94,
+      "conversions_value": 4401268
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-01"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 12413,
+      "clicks": 1057,
+      "cost_micros": 91959000000,
+      "conversions": 87,
+      "conversions_value": 5357199
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 12390,
+      "clicks": 956,
+      "cost_micros": 96556000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 18861,
+      "clicks": 777,
+      "cost_micros": 104895000000,
+      "conversions": 7,
+      "conversions_value": 431396
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 18840,
+      "clicks": 598,
+      "cost_micros": 184184000000,
+      "conversions": 39,
+      "conversions_value": 1203462
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 9272,
+      "clicks": 878,
+      "cost_micros": 431098000000,
+      "conversions": 20,
+      "conversions_value": 871560
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 1383,
+      "clicks": 29,
+      "cost_micros": 4002000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 6887,
+      "clicks": 111,
+      "cost_micros": 60939000000,
+      "conversions": 4,
+      "conversions_value": 136808
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 13563,
+      "clicks": 372,
+      "cost_micros": 155124000000,
+      "conversions": 3,
+      "conversions_value": 85260
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 10776,
+      "clicks": 5,
+      "cost_micros": 2475000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 16411,
+      "clicks": 813,
+      "cost_micros": 90243000000,
+      "conversions": 57,
+      "conversions_value": 3982533
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 13563,
+      "clicks": 1022,
+      "cost_micros": 624442000000,
+      "conversions": 4,
+      "conversions_value": 272732
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 2043,
+      "clicks": 91,
+      "cost_micros": 28301000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 10533,
+      "clicks": 358,
+      "cost_micros": 131386000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 5218,
+      "clicks": 26,
+      "cost_micros": 9932000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 4475,
+      "clicks": 316,
+      "cost_micros": 36340000000,
+      "conversions": 4,
+      "conversions_value": 99480
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 2726,
+      "clicks": 201,
+      "cost_micros": 57084000000,
+      "conversions": 14,
+      "conversions_value": 845824
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 3650,
+      "clicks": 303,
+      "cost_micros": 178164000000,
+      "conversions": 5,
+      "conversions_value": 147810
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 5269,
+      "clicks": 210,
+      "cost_micros": 141120000000,
+      "conversions": 16,
+      "conversions_value": 1220992
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 10413,
+      "clicks": 1274,
+      "cost_micros": 552916000000,
+      "conversions": 44,
+      "conversions_value": 2237928
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-02"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 8225,
+      "clicks": 735,
+      "cost_micros": 111720000000,
+      "conversions": 3,
+      "conversions_value": 48483
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 3091,
+      "clicks": 69,
+      "cost_micros": 46989000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 10413,
+      "clicks": 1061,
+      "cost_micros": 209017000000,
+      "conversions": 75,
+      "conversions_value": 1969425
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 14261,
+      "clicks": 568,
+      "cost_micros": 199368000000,
+      "conversions": 35,
+      "conversions_value": 2630565
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 771,
+      "clicks": 92,
+      "cost_micros": 53360000000,
+      "conversions": 5,
+      "conversions_value": 379340
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 8696,
+      "clicks": 508,
+      "cost_micros": 122428000000,
+      "conversions": 15,
+      "conversions_value": 325260
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 5769,
+      "clicks": 669,
+      "cost_micros": 409428000000,
+      "conversions": 47,
+      "conversions_value": 2216473
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 2562,
+      "clicks": 219,
+      "cost_micros": 149358000000,
+      "conversions": 10,
+      "conversions_value": 686860
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 12377,
+      "clicks": 43,
+      "cost_micros": 14706000000,
+      "conversions": 2,
+      "conversions_value": 82334
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 8597,
+      "clicks": 466,
+      "cost_micros": 122092000000,
+      "conversions": 21,
+      "conversions_value": 1415085
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 5176,
+      "clicks": 598,
+      "cost_micros": 284648000000,
+      "conversions": 43,
+      "conversions_value": 2627343
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 6825,
+      "clicks": 351,
+      "cost_micros": 107055000000,
+      "conversions": 7,
+      "conversions_value": 466599
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 11206,
+      "clicks": 1124,
+      "cost_micros": 508048000000,
+      "conversions": 11,
+      "conversions_value": 207427
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 8271,
+      "clicks": 418,
+      "cost_micros": 157168000000,
+      "conversions": 27,
+      "conversions_value": 504306
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 18306,
+      "clicks": 201,
+      "cost_micros": 27336000000,
+      "conversions": 6,
+      "conversions_value": 301044
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 13135,
+      "clicks": 1488,
+      "cost_micros": 800544000000,
+      "conversions": 119,
+      "conversions_value": 2417485
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 13320,
+      "clicks": 440,
+      "cost_micros": 201960000000,
+      "conversions": 6,
+      "conversions_value": 238770
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 5221,
+      "clicks": 227,
+      "cost_micros": 65149000000,
+      "conversions": 10,
+      "conversions_value": 239340
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 16458,
+      "clicks": 1084,
+      "cost_micros": 266664000000,
+      "conversions": 51,
+      "conversions_value": 2471460
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-03"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 952,
+      "clicks": 76,
+      "cost_micros": 46056000000,
+      "conversions": 4,
+      "conversions_value": 298856
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 5587,
+      "clicks": 468,
+      "cost_micros": 67392000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 17865,
+      "clicks": 2209,
+      "cost_micros": 987423000000,
+      "conversions": 7,
+      "conversions_value": 180691
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 4163,
+      "clicks": 75,
+      "cost_micros": 25575000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 2401,
+      "clicks": 235,
+      "cost_micros": 46530000000,
+      "conversions": 4,
+      "conversions_value": 224184
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 15360,
+      "clicks": 1684,
+      "cost_micros": 250916000000,
+      "conversions": 18,
+      "conversions_value": 706572
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 13247,
+      "clicks": 104,
+      "cost_micros": 54184000000,
+      "conversions": 8,
+      "conversions_value": 498464
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 15596,
+      "clicks": 178,
+      "cost_micros": 25810000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 8433,
+      "clicks": 19,
+      "cost_micros": 9291000000,
+      "conversions": 1,
+      "conversions_value": 30465
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 15175,
+      "clicks": 115,
+      "cost_micros": 17940000000,
+      "conversions": 5,
+      "conversions_value": 283305
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 14934,
+      "clicks": 301,
+      "cost_micros": 158928000000,
+      "conversions": 10,
+      "conversions_value": 662720
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 12916,
+      "clicks": 831,
+      "cost_micros": 241821000000,
+      "conversions": 34,
+      "conversions_value": 555254
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 13314,
+      "clicks": 747,
+      "cost_micros": 87399000000,
+      "conversions": 59,
+      "conversions_value": 1948770
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 18782,
+      "clicks": 1466,
+      "cost_micros": 916250000000,
+      "conversions": 23,
+      "conversions_value": 1649100
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 3973,
+      "clicks": 170,
+      "cost_micros": 117980000000,
+      "conversions": 4,
+      "conversions_value": 76564
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 12961,
+      "clicks": 1113,
+      "cost_micros": 401793000000,
+      "conversions": 84,
+      "conversions_value": 5487216
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 6773,
+      "clicks": 818,
+      "cost_micros": 76892000000,
+      "conversions": 61,
+      "conversions_value": 3243614
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 18451,
+      "clicks": 858,
+      "cost_micros": 300300000000,
+      "conversions": 6,
+      "conversions_value": 90516
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 1399,
+      "clicks": 80,
+      "cost_micros": 29120000000,
+      "conversions": 1,
+      "conversions_value": 66897
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-04"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 15501,
+      "clicks": 1376,
+      "cost_micros": 722400000000,
+      "conversions": 12,
+      "conversions_value": 332016
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 15616,
+      "clicks": 933,
+      "cost_micros": 252843000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 13616,
+      "clicks": 389,
+      "cost_micros": 43957000000,
+      "conversions": 28,
+      "conversions_value": 1404508
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 7864,
+      "clicks": 245,
+      "cost_micros": 52430000000,
+      "conversions": 14,
+      "conversions_value": 704214
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 15410,
+      "clicks": 562,
+      "cost_micros": 374854000000,
+      "conversions": 5,
+      "conversions_value": 363250
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 13743,
+      "clicks": 1420,
+      "cost_micros": 386240000000,
+      "conversions": 93,
+      "conversions_value": 4193649
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 16167,
+      "clicks": 1963,
+      "cost_micros": 1022723000000,
+      "conversions": 27,
+      "conversions_value": 589977
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 15351,
+      "clicks": 1750,
+      "cost_micros": 1002750000000,
+      "conversions": 133,
+      "conversions_value": 8338036
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 8545,
+      "clicks": 882,
+      "cost_micros": 585648000000,
+      "conversions": 46,
+      "conversions_value": 989690
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 2389,
+      "clicks": 101,
+      "cost_micros": 37875000000,
+      "conversions": 8,
+      "conversions_value": 229864
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 11993,
+      "clicks": 1333,
+      "cost_micros": 443889000000,
+      "conversions": 8,
+      "conversions_value": 441520
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 16264,
+      "clicks": 1741,
+      "cost_micros": 504890000000,
+      "conversions": 129,
+      "conversions_value": 6718320
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 2811,
+      "clicks": 225,
+      "cost_micros": 143325000000,
+      "conversions": 16,
+      "conversions_value": 866928
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 17083,
+      "clicks": 57,
+      "cost_micros": 18696000000,
+      "conversions": 3,
+      "conversions_value": 166794
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 2468,
+      "clicks": 15,
+      "cost_micros": 7305000000,
+      "conversions": 1,
+      "conversions_value": 15309
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 10619,
+      "clicks": 357,
+      "cost_micros": 185997000000,
+      "conversions": 18,
+      "conversions_value": 1215792
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 3484,
+      "clicks": 385,
+      "cost_micros": 143605000000,
+      "conversions": 1,
+      "conversions_value": 35437
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 16199,
+      "clicks": 142,
+      "cost_micros": 42600000000,
+      "conversions": 10,
+      "conversions_value": 477600
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 12672,
+      "clicks": 396,
+      "cost_micros": 38412000000,
+      "conversions": 4,
+      "conversions_value": 79360
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-05"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": null
+    },
+    "metrics": {
+      "impressions": 1529,
+      "clicks": 161,
+      "cost_micros": 77441000000,
+      "conversions": 2,
+      "conversions_value": 147206
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 7636,
+      "clicks": 274,
+      "cost_micros": 33976000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 3226,
+      "clicks": 14,
+      "cost_micros": 2408000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 11276,
+      "clicks": 1344,
+      "cost_micros": 799680000000,
+      "conversions": 103,
+      "conversions_value": 6924587
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 15077,
+      "clicks": 1880,
+      "cost_micros": 496320000000,
+      "conversions": 76,
+      "conversions_value": 1982080
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 4589,
+      "clicks": 161,
+      "cost_micros": 83559000000,
+      "conversions": 2,
+      "conversions_value": 49034
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 6537,
+      "clicks": 750,
+      "cost_micros": 312750000000,
+      "conversions": 34,
+      "conversions_value": 2180862
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 3631,
+      "clicks": 159,
+      "cost_micros": 45792000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 2957,
+      "clicks": 3,
+      "cost_micros": 975000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 10322,
+      "clicks": 567,
+      "cost_micros": 125874000000,
+      "conversions": 7,
+      "conversions_value": 231406
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 18059,
+      "clicks": 2046,
+      "cost_micros": 759066000000,
+      "conversions": 168,
+      "conversions_value": 9984408
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 2017,
+      "clicks": 83,
+      "cost_micros": 20252000000,
+      "conversions": 2,
+      "conversions_value": 76650
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 18594,
+      "clicks": 1418,
+      "cost_micros": 287854000000,
+      "conversions": 42,
+      "conversions_value": 1574454
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 6667,
+      "clicks": 278,
+      "cost_micros": 154290000000,
+      "conversions": 2,
+      "conversions_value": 81928
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 13252,
+      "clicks": 1551,
+      "cost_micros": 1001946000000,
+      "conversions": 48,
+      "conversions_value": 960576
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 16905,
+      "clicks": 1176,
+      "cost_micros": 322224000000,
+      "conversions": 2,
+      "conversions_value": 155114
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 15416,
+      "clicks": 967,
+      "cost_micros": 575365000000,
+      "conversions": 32,
+      "conversions_value": 930208
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 6680,
+      "clicks": 193,
+      "cost_micros": 123713000000,
+      "conversions": 1,
+      "conversions_value": 56682
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 10516,
+      "clicks": 897,
+      "cost_micros": 478101000000,
+      "conversions": 36,
+      "conversions_value": 2783016
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-06"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 1561,
+      "clicks": 87,
+      "cost_micros": 13224000000,
+      "conversions": 3,
+      "conversions_value": 53847
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 19098,
+      "clicks": 11,
+      "cost_micros": 2046000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 15697,
+      "clicks": 648,
+      "cost_micros": 386208000000,
+      "conversions": 18,
+      "conversions_value": 256356
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 5953,
+      "clicks": 322,
+      "cost_micros": 86618000000,
+      "conversions": 26,
+      "conversions_value": 1159782
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 14541,
+      "clicks": 771,
+      "cost_micros": 322278000000,
+      "conversions": 21,
+      "conversions_value": 493899
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 9620,
+      "clicks": 80,
+      "cost_micros": 30240000000,
+      "conversions": 6,
+      "conversions_value": 101502
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 2602,
+      "clicks": 263,
+      "cost_micros": 142283000000,
+      "conversions": 11,
+      "conversions_value": 785829
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 18367,
+      "clicks": 1278,
+      "cost_micros": 169974000000,
+      "conversions": 92,
+      "conversions_value": 2536072
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 11746,
+      "clicks": 154,
+      "cost_micros": 81620000000,
+      "conversions": 6,
+      "conversions_value": 277548
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 9732,
+      "clicks": 1149,
+      "cost_micros": 490623000000,
+      "conversions": 83,
+      "conversions_value": 4456104
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 19196,
+      "clicks": 899,
+      "cost_micros": 572663000000,
+      "conversions": 5,
+      "conversions_value": 263695
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 18470,
+      "clicks": 2289,
+      "cost_micros": 1478694000000,
+      "conversions": 143,
+      "conversions_value": 4328181
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 2459,
+      "clicks": 28,
+      "cost_micros": 15484000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 18747,
+      "clicks": 903,
+      "cost_micros": 564375000000,
+      "conversions": 62,
+      "conversions_value": 1850266
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 15498,
+      "clicks": 1125,
+      "cost_micros": 187875000000,
+      "conversions": 23,
+      "conversions_value": 1418387
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 8390,
+      "clicks": 97,
+      "cost_micros": 9700000000,
+      "conversions": 1,
+      "conversions_value": 19948
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 12851,
+      "clicks": 1153,
+      "cost_micros": 477342000000,
+      "conversions": 83,
+      "conversions_value": 3271943
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 13787,
+      "clicks": 546,
+      "cost_micros": 348894000000,
+      "conversions": 2,
+      "conversions_value": 79246
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 14865,
+      "clicks": 962,
+      "cost_micros": 216450000000,
+      "conversions": 60,
+      "conversions_value": 1508700
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-07"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 11756,
+      "clicks": 873,
+      "cost_micros": 153648000000,
+      "conversions": 32,
+      "conversions_value": 1347552
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 1240,
+      "clicks": 124,
+      "cost_micros": 35464000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 9922,
+      "clicks": 1107,
+      "cost_micros": 534681000000,
+      "conversions": 18,
+      "conversions_value": 670842
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 1766,
+      "clicks": 214,
+      "cost_micros": 73402000000,
+      "conversions": 12,
+      "conversions_value": 422904
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 8724,
+      "clicks": 226,
+      "cost_micros": 115260000000,
+      "conversions": 2,
+      "conversions_value": 106956
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 4766,
+      "clicks": 387,
+      "cost_micros": 194661000000,
+      "conversions": 23,
+      "conversions_value": 1570785
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 5637,
+      "clicks": 423,
+      "cost_micros": 126054000000,
+      "conversions": 10,
+      "conversions_value": 636760
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 14200,
+      "clicks": 984,
+      "cost_micros": 250920000000,
+      "conversions": 16,
+      "conversions_value": 705456
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 11962,
+      "clicks": 703,
+      "cost_micros": 260110000000,
+      "conversions": 23,
+      "conversions_value": 1103011
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 4197,
+      "clicks": 174,
+      "cost_micros": 117624000000,
+      "conversions": 3,
+      "conversions_value": 73593
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 7542,
+      "clicks": 115,
+      "cost_micros": 24035000000,
+      "conversions": 5,
+      "conversions_value": 89945
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 13306,
+      "clicks": 1531,
+      "cost_micros": 223526000000,
+      "conversions": 87,
+      "conversions_value": 6708309
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 6289,
+      "clicks": 765,
+      "cost_micros": 130050000000,
+      "conversions": 58,
+      "conversions_value": 2193502
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 4642,
+      "clicks": 36,
+      "cost_micros": 9612000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 2673,
+      "clicks": 286,
+      "cost_micros": 199342000000,
+      "conversions": 18,
+      "conversions_value": 485838
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 10676,
+      "clicks": 993,
+      "cost_micros": 403158000000,
+      "conversions": 41,
+      "conversions_value": 740132
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 6851,
+      "clicks": 411,
+      "cost_micros": 63294000000,
+      "conversions": 22,
+      "conversions_value": 1432970
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 9933,
+      "clicks": 251,
+      "cost_micros": 20833000000,
+      "conversions": 10,
+      "conversions_value": 483370
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 16755,
+      "clicks": 1134,
+      "cost_micros": 96390000000,
+      "conversions": 62,
+      "conversions_value": 1099322
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-08"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 12802,
+      "clicks": 903,
+      "cost_micros": 299796000000,
+      "conversions": 74,
+      "conversions_value": 3142040
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 10061,
+      "clicks": 86,
+      "cost_micros": 55384000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 18290,
+      "clicks": 766,
+      "cost_micros": 534668000000,
+      "conversions": 19,
+      "conversions_value": 1397241
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 19515,
+      "clicks": 1885,
+      "cost_micros": 282750000000,
+      "conversions": 79,
+      "conversions_value": 3094904
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 1395,
+      "clicks": 14,
+      "cost_micros": 5992000000,
+      "conversions": 1,
+      "conversions_value": 34903
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 4045,
+      "clicks": 106,
+      "cost_micros": 70596000000,
+      "conversions": 6,
+      "conversions_value": 303156
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 1012,
+      "clicks": 66,
+      "cost_micros": 24222000000,
+      "conversions": 3,
+      "conversions_value": 81174
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 8865,
+      "clicks": 987,
+      "cost_micros": 544824000000,
+      "conversions": 32,
+      "conversions_value": 2352000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 18119,
+      "clicks": 1458,
+      "cost_micros": 879174000000,
+      "conversions": 88,
+      "conversions_value": 4779632
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 15043,
+      "clicks": 110,
+      "cost_micros": 46970000000,
+      "conversions": 8,
+      "conversions_value": 356824
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C11",
+      "name": "가상3 캠페인 11"
+    },
+    "metrics": {
+      "impressions": 15111,
+      "clicks": 313,
+      "cost_micros": 48828000000,
+      "conversions": 20,
+      "conversions_value": 1175160
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C12",
+      "name": "가상3 캠페인 12"
+    },
+    "metrics": {
+      "impressions": 3914,
+      "clicks": 122,
+      "cost_micros": 19276000000,
+      "conversions": 4,
+      "conversions_value": 83044
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C13",
+      "name": "가상3 캠페인 13"
+    },
+    "metrics": {
+      "impressions": 5352,
+      "clicks": 143,
+      "cost_micros": 85085000000,
+      "conversions": 5,
+      "conversions_value": 160900
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C14",
+      "name": "가상3 캠페인 14"
+    },
+    "metrics": {
+      "impressions": 6797,
+      "clicks": 636,
+      "cost_micros": 425484000000,
+      "conversions": 9,
+      "conversions_value": 444906
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C15",
+      "name": "가상3 캠페인 15"
+    },
+    "metrics": {
+      "impressions": 11018,
+      "clicks": 932,
+      "cost_micros": 626304000000,
+      "conversions": 50,
+      "conversions_value": 1130000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C16",
+      "name": "가상3 캠페인 16"
+    },
+    "metrics": {
+      "impressions": 10571,
+      "clicks": 235,
+      "cost_micros": 25145000000,
+      "conversions": 10,
+      "conversions_value": 428430
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C17",
+      "name": "가상3 캠페인 17"
+    },
+    "metrics": {
+      "impressions": 5638,
+      "clicks": 353,
+      "cost_micros": 88956000000,
+      "conversions": 6,
+      "conversions_value": 154518
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C18",
+      "name": "가상3 캠페인 18"
+    },
+    "metrics": {
+      "impressions": 8226,
+      "clicks": 20,
+      "cost_micros": 2520000000,
+      "conversions": 1,
+      "conversions_value": 61903
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C19",
+      "name": "가상3 캠페인 19"
+    },
+    "metrics": {
+      "impressions": 13877,
+      "clicks": 499,
+      "cost_micros": 341815000000,
+      "conversions": 36,
+      "conversions_value": 1458108
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-11-09"
+    },
+    "campaign": {
+      "id": "C20",
+      "name": "가상3 캠페인 20"
+    },
+    "metrics": {
+      "impressions": 19129,
+      "clicks": 1465,
+      "cost_micros": 300325000000,
+      "conversions": 70,
+      "conversions_value": 4045930
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C01",
+      "name": "가상3 캠페인 01"
+    },
+    "metrics": {
+      "impressions": 1000,
+      "clicks": 0,
+      "cost_micros": 0,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C02",
+      "name": "가상3 캠페인 02"
+    },
+    "metrics": {
+      "impressions": 10360,
+      "clicks": 67,
+      "cost_micros": 31892000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C03",
+      "name": "가상3 캠페인 03"
+    },
+    "metrics": {
+      "impressions": 4607,
+      "clicks": 269,
+      "cost_micros": 132617000000,
+      "conversions": 15,
+      "conversions_value": 854250
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C04",
+      "name": "가상3 캠페인 04"
+    },
+    "metrics": {
+      "impressions": 10109,
+      "clicks": 718,
+      "cost_micros": 228324000000,
+      "conversions": 23,
+      "conversions_value": 1227993
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C05",
+      "name": "가상3 캠페인 05"
+    },
+    "metrics": {
+      "impressions": 9562,
+      "clicks": 867,
+      "cost_micros": 211548000000,
+      "conversions": 52,
+      "conversions_value": 3887988
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C06",
+      "name": "가상3 캠페인 06"
+    },
+    "metrics": {
+      "impressions": 19182,
+      "clicks": 1375,
+      "cost_micros": 999000000,
+      "conversions": 32,
+      "conversions_value": 1832032
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C07",
+      "name": "가상3 캠페인 07"
+    },
+    "metrics": {
+      "impressions": 15115,
+      "clicks": 1117,
+      "cost_micros": 999000000,
+      "conversions": 83,
+      "conversions_value": 1826830
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C08",
+      "name": "가상3 캠페인 08"
+    },
+    "metrics": {
+      "impressions": 8956,
+      "clicks": 509,
+      "cost_micros": 999000000,
+      "conversions": 25,
+      "conversions_value": 781525
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C09",
+      "name": "가상3 캠페인 09"
+    },
+    "metrics": {
+      "impressions": 13797,
+      "clicks": 1337,
+      "cost_micros": 999000000,
+      "conversions": 85,
+      "conversions_value": 1453415
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-22"
+    },
+    "campaign": {
+      "id": "C10",
+      "name": "가상3 캠페인 10"
+    },
+    "metrics": {
+      "impressions": 4447,
+      "clicks": 140,
+      "cost_micros": 999000000,
+      "conversions": 0,
+      "conversions_value": 0
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-02-30"
+    },
+    "campaign": {
+      "id": "BAD00",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD02",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD03",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": "12x",
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD04",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": -1,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD05",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": true,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD06",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": "1,000"
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD07",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 1.5,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": 5000
+    }
+  },
+  {
+    "segments": {
+      "date": "2026-10-23"
+    },
+    "campaign": {
+      "id": "BAD08",
+      "name": "무효 검증행"
+    },
+    "metrics": {
+      "impressions": 100,
+      "clicks": 10,
+      "cost_micros": 1000000000,
+      "conversions": 1,
+      "conversions_value": ""
+    }
+  }
 ]

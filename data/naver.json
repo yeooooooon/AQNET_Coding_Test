@@ -1,6 +1,4201 @@
 [
-  {"date":"2026-11-01","campaign_id":"N-101","campaign_name":"브랜드 검색 A","impressions":6000,"clicks":200,"cost":120000,"conversions":8,"revenue":320000},
-  {"date":"2026-11-02","campaign_id":"N-101","campaign_name":"브랜드 검색 A","impressions":6000,"clicks":220,"cost":90000,"conversions":10,"revenue":440000},
-  {"date":"2026-11-01","campaign_id":"N-102","campaign_name":"일반 키워드 B","impressions":2000,"clicks":50,"cost":30000,"conversions":2,"revenue":80000},
-  {"date":"2026-11-01","campaign_id":"N-999","campaign_name":"무료 노출 테스트","impressions":1000,"clicks":0,"cost":0,"conversions":0,"revenue":0}
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": null,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 14002,
+    "clicks": 400,
+    "cost": 248400,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 8000,
+    "clicks": 200,
+    "cost": 201,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 0,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 0,
+    "conversions": 1,
+    "revenue": 17000
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 4542,
+    "clicks": 466,
+    "cost": 212962,
+    "conversions": 31,
+    "revenue": 2418496
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 16416,
+    "clicks": 712,
+    "cost": 389464,
+    "conversions": 53,
+    "revenue": 1177236
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 17199,
+    "clicks": 1514,
+    "cost": 307342,
+    "conversions": 37,
+    "revenue": 2548893
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 3612,
+    "clicks": 109,
+    "cost": 42946,
+    "conversions": 1,
+    "revenue": 31605
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 3300,
+    "clicks": 121,
+    "cost": 21538,
+    "conversions": 8,
+    "revenue": 531936
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 16408,
+    "clicks": 596,
+    "cost": 147212,
+    "conversions": 46,
+    "revenue": 1923214
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 14328,
+    "clicks": 1699,
+    "cost": 193686,
+    "conversions": 9,
+    "revenue": 148194
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 17907,
+    "clicks": 414,
+    "cost": 289386,
+    "conversions": 9,
+    "revenue": 379638
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 13278,
+    "clicks": 1310,
+    "cost": 186020,
+    "conversions": 90,
+    "revenue": 6394320
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 2081,
+    "clicks": 6,
+    "cost": 792,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 18476,
+    "clicks": 2300,
+    "cost": 1062600,
+    "conversions": 138,
+    "revenue": 4500732
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 7589,
+    "clicks": 470,
+    "cost": 96350,
+    "conversions": 36,
+    "revenue": 885204
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 16826,
+    "clicks": 1629,
+    "cost": 803097,
+    "conversions": 44,
+    "revenue": 1583912
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 12465,
+    "clicks": 942,
+    "cost": 358902,
+    "conversions": 46,
+    "revenue": 1950124
+  },
+  {
+    "stat_date": "2026-10-21",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": 5326,
+    "clicks": 371,
+    "cost": 154336,
+    "conversions": 5,
+    "revenue": 77090
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 8463,
+    "clicks": 615,
+    "cost": 119310,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 9801,
+    "clicks": 247,
+    "cost": 168454,
+    "conversions": 14,
+    "revenue": 656040
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 3232,
+    "clicks": 314,
+    "cost": 48984,
+    "conversions": 12,
+    "revenue": 391716
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 13569,
+    "clicks": 1032,
+    "cost": 558312,
+    "conversions": 58,
+    "revenue": 2562092
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 4605,
+    "clicks": 561,
+    "cost": 309672,
+    "conversions": 19,
+    "revenue": 1231789
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 8926,
+    "clicks": 40,
+    "cost": 9680,
+    "conversions": 3,
+    "revenue": 226635
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 8696,
+    "clicks": 694,
+    "cost": 204730,
+    "conversions": 19,
+    "revenue": 285684
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 13335,
+    "clicks": 1235,
+    "cost": 125970,
+    "conversions": 85,
+    "revenue": 2232440
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 7391,
+    "clicks": 625,
+    "cost": 210625,
+    "conversions": 28,
+    "revenue": 2164932
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 18668,
+    "clicks": 882,
+    "cost": 128772,
+    "conversions": 10,
+    "revenue": 220620
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 12845,
+    "clicks": 236,
+    "cost": 26196,
+    "conversions": 14,
+    "revenue": 529424
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 4171,
+    "clicks": 115,
+    "cost": 74980,
+    "conversions": 8,
+    "revenue": 142600
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 15416,
+    "clicks": 1244,
+    "cost": 682956,
+    "conversions": 69,
+    "revenue": 2148177
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 5239,
+    "clicks": 466,
+    "cost": 71764,
+    "conversions": 33,
+    "revenue": 1970859
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 5348,
+    "clicks": 478,
+    "cost": 241868,
+    "conversions": 3,
+    "revenue": 165864
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 13350,
+    "clicks": 1413,
+    "cost": 286839,
+    "conversions": 41,
+    "revenue": 1648405
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 1057,
+    "clicks": 11,
+    "cost": 3113,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 997,
+    "clicks": 24,
+    "cost": 14832,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 1033,
+    "clicks": 104,
+    "cost": 12168,
+    "conversions": 2,
+    "revenue": 90102
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 13092,
+    "clicks": 397,
+    "cost": 228672,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 16388,
+    "clicks": 309,
+    "cost": 207957,
+    "conversions": 13,
+    "revenue": 579800
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 8974,
+    "clicks": 523,
+    "cost": 104600,
+    "conversions": 17,
+    "revenue": 636633
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 18621,
+    "clicks": 194,
+    "cost": 75272,
+    "conversions": 15,
+    "revenue": 300165
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 878,
+    "clicks": 55,
+    "cost": 22550,
+    "conversions": 1,
+    "revenue": 15371
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 19852,
+    "clicks": 592,
+    "cost": 381840,
+    "conversions": 14,
+    "revenue": 680218
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 8840,
+    "clicks": "  509  ",
+    "cost": 69733,
+    "conversions": 3,
+    "revenue": 235140
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 19008,
+    "clicks": 1549,
+    "cost": 913910,
+    "conversions": 36,
+    "revenue": 1054080
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 11462,
+    "clicks": 396,
+    "cost": 186120,
+    "conversions": 11,
+    "revenue": 250481
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 10679,
+    "clicks": 709,
+    "cost": 124075,
+    "conversions": 7,
+    "revenue": 313838
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 1675,
+    "clicks": 202,
+    "cost": 43430,
+    "conversions": 8,
+    "revenue": 623000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 9082,
+    "clicks": 678,
+    "cost": 86106,
+    "conversions": 16,
+    "revenue": 751552
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 14502,
+    "clicks": 776,
+    "cost": 280136,
+    "conversions": 10,
+    "revenue": 622080
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 18774,
+    "clicks": 628,
+    "cost": 124344,
+    "conversions": 41,
+    "revenue": 749439
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 17684,
+    "clicks": 1631,
+    "cost": 225078,
+    "conversions": 57,
+    "revenue": 2001840
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 8391,
+    "clicks": 397,
+    "cost": 98059,
+    "conversions": 4,
+    "revenue": 165888
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 3701,
+    "clicks": 148,
+    "cost": 40108,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 16417,
+    "clicks": 278,
+    "cost": 116760,
+    "conversions": 5,
+    "revenue": 126675
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 3637,
+    "clicks": 326,
+    "cost": 28688,
+    "conversions": 23,
+    "revenue": 1339290
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 7823,
+    "clicks": 630,
+    "cost": 395010,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 4115,
+    "clicks": 196,
+    "cost": 37240,
+    "conversions": 16,
+    "revenue": 873344
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 17659,
+    "clicks": 132,
+    "cost": 57420,
+    "conversions": 5,
+    "revenue": 279595
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 5486,
+    "clicks": 277,
+    "cost": 152627,
+    "conversions": 3,
+    "revenue": 200343
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 1248,
+    "clicks": 155,
+    "cost": 50220,
+    "conversions": 12,
+    "revenue": 190596
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 3262,
+    "clicks": 308,
+    "cost": 66220,
+    "conversions": 11,
+    "revenue": 489654
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 10728,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 2302,
+    "clicks": 103,
+    "cost": 29870,
+    "conversions": 2,
+    "revenue": 60152
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 5760,
+    "clicks": 455,
+    "cost": 113295,
+    "conversions": 30,
+    "revenue": 1378020
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 13907,
+    "clicks": 794,
+    "cost": 253286,
+    "conversions": 53,
+    "revenue": 1420506
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 724,
+    "clicks": 25,
+    "cost": 10825,
+    "conversions": 1,
+    "revenue": 22781
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 11874,
+    "clicks": 714,
+    "cost": 192780,
+    "conversions": 3,
+    "revenue": 217941
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 7480,
+    "clicks": 13,
+    "cost": 4654,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 5027,
+    "clicks": 599,
+    "cost": 337237,
+    "conversions": 17,
+    "revenue": 458796
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 13818,
+    "clicks": 486,
+    "cost": 152118,
+    "conversions": 13,
+    "revenue": 268060
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 16452,
+    "clicks": 228,
+    "cost": 153672,
+    "conversions": 15,
+    "revenue": 819915
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 9639,
+    "clicks": 237,
+    "cost": 158079,
+    "conversions": 19,
+    "revenue": 1171540
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 2701,
+    "clicks": 180,
+    "cost": 24480,
+    "conversions": 15,
+    "revenue": 735270
+  },
+  {
+    "stat_date": "2026-10-24",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 14434,
+    "clicks": 1287,
+    "cost": 745173,
+    "conversions": 46,
+    "revenue": 3381184
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 2183,
+    "clicks": 119,
+    "cost": 65331,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 9289,
+    "clicks": 258,
+    "cost": 111972,
+    "conversions": 18,
+    "revenue": 692478
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 1469,
+    "clicks": 109,
+    "cost": 44799,
+    "conversions": 7,
+    "revenue": 351827
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 18491,
+    "clicks": 2281,
+    "cost": 816598,
+    "conversions": 10,
+    "revenue": 734080
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 1944,
+    "clicks": 6,
+    "cost": 4062,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 13304,
+    "clicks": 657,
+    "cost": 107091,
+    "conversions": 7,
+    "revenue": 298634
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 16310,
+    "clicks": 1514,
+    "cost": 496592,
+    "conversions": 14,
+    "revenue": 698698
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 3291,
+    "clicks": 344,
+    "cost": 234952,
+    "conversions": 24,
+    "revenue": 768504
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 5685,
+    "clicks": 297,
+    "cost": 64746,
+    "conversions": 3,
+    "revenue": 145248
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 17678,
+    "clicks": 845,
+    "cost": 257725,
+    "conversions": 35,
+    "revenue": 825125
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 16474,
+    "clicks": 2035,
+    "cost": 1192510,
+    "conversions": 57,
+    "revenue": 3812274
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 17762,
+    "clicks": 1143,
+    "cost": 731520,
+    "conversions": 44,
+    "revenue": 2736360
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 14997,
+    "clicks": 744,
+    "cost": 482856,
+    "conversions": 55,
+    "revenue": 1016840
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 4443,
+    "clicks": 497,
+    "cost": 123256,
+    "conversions": 2,
+    "revenue": 73104
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 875,
+    "clicks": 61,
+    "cost": 41724,
+    "conversions": 5,
+    "revenue": 101790
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 6799,
+    "clicks": 770,
+    "cost": 221760,
+    "conversions": 28,
+    "revenue": 1591688
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 2929,
+    "clicks": 125,
+    "cost": 78750,
+    "conversions": 1,
+    "revenue": 75204
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 14763,
+    "clicks": 1637,
+    "cost": 301208,
+    "conversions": 51,
+    "revenue": 1154997
+  },
+  {
+    "stat_date": "2026-10-25",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 7340,
+    "clicks": 552,
+    "cost": 196512,
+    "conversions": 3,
+    "revenue": 212796
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 9023,
+    "clicks": 465,
+    "cost": 62775,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 3666,
+    "clicks": 231,
+    "cost": 23562,
+    "conversions": 8,
+    "revenue": 381368
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 2657,
+    "clicks": 127,
+    "cost": 45212,
+    "conversions": 2,
+    "revenue": 42738
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 18320,
+    "clicks": 1969,
+    "cost": 913616,
+    "conversions": 38,
+    "revenue": 651966
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 19300,
+    "clicks": 380,
+    "cost": 196840,
+    "conversions": 4,
+    "revenue": 127828
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 17922,
+    "clicks": 600,
+    "cost": 130800,
+    "conversions": 1,
+    "revenue": 15605
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 5037,
+    "clicks": 613,
+    "cost": 394159,
+    "conversions": 22,
+    "revenue": 677116
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 17957,
+    "clicks": 52,
+    "cost": 27820,
+    "conversions": 1,
+    "revenue": 17244
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 6908,
+    "clicks": 658,
+    "cost": 104622,
+    "conversions": 54,
+    "revenue": 3824550
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 3259,
+    "clicks": 300,
+    "cost": 36300,
+    "conversions": 14,
+    "revenue": 481698
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 13662,
+    "clicks": 1701,
+    "cost": 358911,
+    "conversions": 64,
+    "revenue": 1203456
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 9821,
+    "clicks": 1220,
+    "cost": 187880,
+    "conversions": 101,
+    "revenue": 2917890
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 7505,
+    "clicks": 89,
+    "cost": 46725,
+    "conversions": 7,
+    "revenue": 476147
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 13882,
+    "clicks": 342,
+    "cost": 220590,
+    "conversions": 19,
+    "revenue": 1012396
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 14560,
+    "clicks": 827,
+    "cost": 69468,
+    "conversions": 68,
+    "revenue": 1221552
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 19313,
+    "clicks": 56,
+    "cost": 8064,
+    "conversions": 2,
+    "revenue": 148106
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 8952,
+    "clicks": 314,
+    "cost": 215404,
+    "conversions": 5,
+    "revenue": 136610
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 14511,
+    "clicks": 1712,
+    "cost": 922768,
+    "conversions": 79,
+    "revenue": 5150642
+  },
+  {
+    "stat_date": "2026-10-26",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": 5447,
+    "clicks": 471,
+    "cost": 87135,
+    "conversions": 6,
+    "revenue": 368298
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 13771,
+    "clicks": 640,
+    "cost": 359680,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 1886,
+    "clicks": 216,
+    "cost": 74952,
+    "conversions": 9,
+    "revenue": 538803
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 8569,
+    "clicks": 751,
+    "cost": 217039,
+    "conversions": 44,
+    "revenue": 1238292
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 4253,
+    "clicks": 464,
+    "cost": 280720,
+    "conversions": 11,
+    "revenue": 467665
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 13320,
+    "clicks": 718,
+    "cost": 493984,
+    "conversions": 24,
+    "revenue": 1018824
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 14879,
+    "clicks": 1218,
+    "cost": 288666,
+    "conversions": 83,
+    "revenue": 5965957
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 9587,
+    "clicks": 431,
+    "cost": 185330,
+    "conversions": 31,
+    "revenue": 2106853
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 11952,
+    "clicks": 579,
+    "cost": 208440,
+    "conversions": 28,
+    "revenue": 699440
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 3097,
+    "clicks": 124,
+    "cost": 59148,
+    "conversions": 6,
+    "revenue": 376998
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 10062,
+    "clicks": 842,
+    "cost": 112828,
+    "conversions": 56,
+    "revenue": 2898392
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 12717,
+    "clicks": 361,
+    "cost": 38266,
+    "conversions": 14,
+    "revenue": 597492
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 15382,
+    "clicks": 1518,
+    "cost": 704352,
+    "conversions": 15,
+    "revenue": 1120950
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 4627,
+    "clicks": 118,
+    "cost": 15812,
+    "conversions": 2,
+    "revenue": 137714
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 8609,
+    "clicks": 277,
+    "cost": 103598,
+    "conversions": 15,
+    "revenue": 636525
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 14425,
+    "clicks": 1329,
+    "cost": 277761,
+    "conversions": 10,
+    "revenue": 341410
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 5986,
+    "clicks": 551,
+    "cost": 202217,
+    "conversions": 14,
+    "revenue": 247576
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 9708,
+    "clicks": 1092,
+    "cost": 598416,
+    "conversions": 39,
+    "revenue": 1806987
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 9839,
+    "clicks": 423,
+    "cost": 38493,
+    "conversions": 34,
+    "revenue": 1690072
+  },
+  {
+    "stat_date": "2026-10-27",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 1933,
+    "clicks": 188,
+    "cost": 90992,
+    "conversions": 13,
+    "revenue": 945880
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 14126,
+    "clicks": 950,
+    "cost": 360050,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 5618,
+    "clicks": 169,
+    "cost": 13520,
+    "conversions": 11,
+    "revenue": 663311
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 8239,
+    "clicks": 429,
+    "cost": 300300,
+    "conversions": 32,
+    "revenue": 2294080
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 11776,
+    "clicks": 1108,
+    "cost": 562864,
+    "conversions": 49,
+    "revenue": 2355920
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 1002,
+    "clicks": 29,
+    "cost": 17922,
+    "conversions": 1,
+    "revenue": 54873
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 710,
+    "clicks": 78,
+    "cost": 21138,
+    "conversions": 1,
+    "revenue": 50990
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 2255,
+    "clicks": 87,
+    "cost": 60117,
+    "conversions": 6,
+    "revenue": 273660
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 10610,
+    "clicks": 1009,
+    "cost": 144287,
+    "conversions": 33,
+    "revenue": 991254
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 10548,
+    "clicks": 789,
+    "cost": 254058,
+    "conversions": 61,
+    "revenue": 3478342
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 16112,
+    "clicks": 773,
+    "cost": 531051,
+    "conversions": 3,
+    "revenue": 114474
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 17846,
+    "clicks": 860,
+    "cost": 597700,
+    "conversions": 51,
+    "revenue": 2314788
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 12740,
+    "clicks": 5,
+    "cost": 2835,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 11274,
+    "clicks": 1375,
+    "cost": 800250,
+    "conversions": 107,
+    "revenue": 7104800
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 17768,
+    "clicks": 311,
+    "cost": 135285,
+    "conversions": 19,
+    "revenue": 1408470
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 12593,
+    "clicks": 1446,
+    "cost": 657930,
+    "conversions": 28,
+    "revenue": 601244
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 13251,
+    "clicks": 980,
+    "cost": 415520,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 9964,
+    "clicks": 651,
+    "cost": 413385,
+    "conversions": 14,
+    "revenue": 639296
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 4172,
+    "clicks": 201,
+    "cost": 17688,
+    "conversions": 2,
+    "revenue": 33430
+  },
+  {
+    "stat_date": "2026-10-28",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 1950,
+    "clicks": 35,
+    "cost": 18830,
+    "conversions": 2,
+    "revenue": 92292
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 7728,
+    "clicks": 519,
+    "cost": 69027,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 2897,
+    "clicks": 46,
+    "cost": 20746,
+    "conversions": 3,
+    "revenue": 58866
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 8062,
+    "clicks": 745,
+    "cost": 498405,
+    "conversions": 46,
+    "revenue": 744740
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 19082,
+    "clicks": 2076,
+    "cost": 1199928,
+    "conversions": 85,
+    "revenue": 1762645
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 14540,
+    "clicks": 18,
+    "cost": 9972,
+    "conversions": 1,
+    "revenue": 57664
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 8672,
+    "clicks": 1020,
+    "cost": 88740,
+    "conversions": 57,
+    "revenue": 1066185
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 14850,
+    "clicks": 571,
+    "cost": 397416,
+    "conversions": 5,
+    "revenue": 148025
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 15758,
+    "clicks": 1853,
+    "cost": 894999,
+    "conversions": 114,
+    "revenue": 6336804
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 1821,
+    "clicks": 104,
+    "cost": 65416,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 10152,
+    "clicks": 667,
+    "cost": 209438,
+    "conversions": 29,
+    "revenue": 2285954
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 7543,
+    "clicks": 885,
+    "cost": 568170,
+    "conversions": 56,
+    "revenue": 4127984
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 11335,
+    "clicks": 1176,
+    "cost": 667968,
+    "conversions": 3,
+    "revenue": 91566
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 9774,
+    "clicks": 632,
+    "cost": 277448,
+    "conversions": 42,
+    "revenue": 3186078
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 10969,
+    "clicks": 976,
+    "cost": 122000,
+    "conversions": 4,
+    "revenue": 149148
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 1250,
+    "clicks": 8,
+    "cost": 2416,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 1114,
+    "clicks": 129,
+    "cost": 14319,
+    "conversions": 3,
+    "revenue": 131166
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 1474,
+    "clicks": 34,
+    "cost": 16150,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 5030,
+    "clicks": 565,
+    "cost": 236735,
+    "conversions": 15,
+    "revenue": 1147545
+  },
+  {
+    "stat_date": "2026-10-29",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 13737,
+    "clicks": 1194,
+    "cost": 651924,
+    "conversions": 65,
+    "revenue": 3689790
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 10176,
+    "clicks": 1172,
+    "cost": 544980,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 13779,
+    "clicks": 1320,
+    "cost": 271920,
+    "conversions": 20,
+    "revenue": 999320
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 8408,
+    "clicks": 635,
+    "cost": 405765,
+    "conversions": 48,
+    "revenue": 770448
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 6293,
+    "clicks": 345,
+    "cost": 165600,
+    "conversions": 14,
+    "revenue": 454104
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 9794,
+    "clicks": 654,
+    "cost": 379974,
+    "conversions": 11,
+    "revenue": 537174
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 9195,
+    "clicks": 281,
+    "cost": 56200,
+    "conversions": 4,
+    "revenue": 230932
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 12382,
+    "clicks": 621,
+    "cost": 211140,
+    "conversions": 29,
+    "revenue": 612886
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 3429,
+    "clicks": 51,
+    "cost": 31620,
+    "conversions": 1,
+    "revenue": 24893
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 9846,
+    "clicks": 928,
+    "cost": 463072,
+    "conversions": 21,
+    "revenue": 1155315
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 10728,
+    "clicks": 795,
+    "cost": 343440,
+    "conversions": 29,
+    "revenue": 1013898
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 8030,
+    "clicks": 360,
+    "cost": 53280,
+    "conversions": 10,
+    "revenue": 314530
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 8672,
+    "clicks": 293,
+    "cost": 69148,
+    "conversions": 4,
+    "revenue": 296484
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 10924,
+    "clicks": 881,
+    "cost": 141841,
+    "conversions": 45,
+    "revenue": 2912625
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 11693,
+    "clicks": 1083,
+    "cost": 222015,
+    "conversions": 30,
+    "revenue": 1938810
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 1144,
+    "clicks": 131,
+    "cost": 63142,
+    "conversions": 7,
+    "revenue": 274379
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 11906,
+    "clicks": 659,
+    "cost": 238558,
+    "conversions": 28,
+    "revenue": 1488424
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 2134,
+    "clicks": 202,
+    "cost": 120998,
+    "conversions": 14,
+    "revenue": 1066856
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 14810,
+    "clicks": 1346,
+    "cost": 484560,
+    "conversions": 80,
+    "revenue": 4569840
+  },
+  {
+    "stat_date": "2026-10-30",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 16389,
+    "clicks": 1733,
+    "cost": 890762,
+    "conversions": 89,
+    "revenue": 2942251
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 13739,
+    "clicks": 426,
+    "cost": 235578,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 18012,
+    "clicks": 2079,
+    "cost": 370062,
+    "conversions": 14,
+    "revenue": 249886
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 9585,
+    "clicks": 279,
+    "cost": 143406,
+    "conversions": 8,
+    "revenue": 518384
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 13076,
+    "clicks": 618,
+    "cost": 221244,
+    "conversions": 8,
+    "revenue": 521584
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 3654,
+    "clicks": 45,
+    "cost": 12870,
+    "conversions": 2,
+    "revenue": 103490
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 10084,
+    "clicks": 321,
+    "cost": 71583,
+    "conversions": 12,
+    "revenue": 862992
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 8292,
+    "clicks": 114,
+    "cost": 24054,
+    "conversions": 7,
+    "revenue": 419335
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 12346,
+    "clicks": 1365,
+    "cost": 558285,
+    "conversions": 52,
+    "revenue": 1393028
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 12605,
+    "clicks": 274,
+    "cost": 25756,
+    "conversions": 11,
+    "revenue": 498773
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 2981,
+    "clicks": 188,
+    "cost": 70312,
+    "conversions": 5,
+    "revenue": 92395
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 12541,
+    "clicks": 627,
+    "cost": 148599,
+    "conversions": 41,
+    "revenue": 2728058
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 19493,
+    "clicks": 1165,
+    "cost": 356490,
+    "conversions": 14,
+    "revenue": 542388
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 1008,
+    "clicks": 20,
+    "cost": 3700,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 18855,
+    "clicks": 2245,
+    "cost": 889020,
+    "conversions": 33,
+    "revenue": 928026
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 16413,
+    "clicks": 671,
+    "cost": 383141,
+    "conversions": 24,
+    "revenue": 519072
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 13207,
+    "clicks": 102,
+    "cost": 45390,
+    "conversions": 4,
+    "revenue": 120948
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 7181,
+    "clicks": 26,
+    "cost": 11284,
+    "conversions": 1,
+    "revenue": 39033
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 13370,
+    "clicks": 1247,
+    "cost": 593572,
+    "conversions": 96,
+    "revenue": 7111872
+  },
+  {
+    "stat_date": "2026-10-31",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": 18835,
+    "clicks": 473,
+    "cost": 187308,
+    "conversions": 30,
+    "revenue": 2058390
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 6158,
+    "clicks": 723,
+    "cost": 442476,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 16975,
+    "clicks": 884,
+    "cost": 342992,
+    "conversions": 36,
+    "revenue": 2337444
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 19765,
+    "clicks": 508,
+    "cost": 250444,
+    "conversions": 32,
+    "revenue": 1982848
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 19673,
+    "clicks": 1424,
+    "cost": 673552,
+    "conversions": 93,
+    "revenue": 3767058
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 15283,
+    "clicks": 938,
+    "cost": 208236,
+    "conversions": 70,
+    "revenue": 3913280
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 3605,
+    "clicks": 147,
+    "cost": 45276,
+    "conversions": 3,
+    "revenue": 62055
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 8867,
+    "clicks": 165,
+    "cost": 94710,
+    "conversions": 10,
+    "revenue": 730220
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 16513,
+    "clicks": 1181,
+    "cost": 480667,
+    "conversions": 19,
+    "revenue": 676723
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 11055,
+    "clicks": 1299,
+    "cost": 118209,
+    "conversions": 30,
+    "revenue": 514080
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 10226,
+    "clicks": 333,
+    "cost": 55944,
+    "conversions": 9,
+    "revenue": 598167
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 3387,
+    "clicks": 43,
+    "cost": 15265,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 17835,
+    "clicks": 538,
+    "cost": 68326,
+    "conversions": 26,
+    "revenue": 1962766
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 1376,
+    "clicks": 36,
+    "cost": 24588,
+    "conversions": 2,
+    "revenue": 97504
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 3538,
+    "clicks": 156,
+    "cost": 93288,
+    "conversions": 12,
+    "revenue": 778344
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 9538,
+    "clicks": 1063,
+    "cost": 327404,
+    "conversions": 1,
+    "revenue": 26420
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 7900,
+    "clicks": 427,
+    "cost": 63623,
+    "conversions": 4,
+    "revenue": 229968
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 2363,
+    "clicks": 255,
+    "cost": 48450,
+    "conversions": 17,
+    "revenue": 652001
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 3098,
+    "clicks": 49,
+    "cost": 8036,
+    "conversions": 3,
+    "revenue": 199644
+  },
+  {
+    "stat_date": "2026-11-01",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 2929,
+    "clicks": 280,
+    "cost": 173040,
+    "conversions": 11,
+    "revenue": 853809
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 3477,
+    "clicks": 294,
+    "cost": 67914,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 11951,
+    "clicks": 685,
+    "cost": 327430,
+    "conversions": 25,
+    "revenue": 665375
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 4222,
+    "clicks": 305,
+    "cost": 194590,
+    "conversions": 3,
+    "revenue": 125916
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 9115,
+    "clicks": 293,
+    "cost": 71785,
+    "conversions": 13,
+    "revenue": 908531
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 11587,
+    "clicks": 277,
+    "cost": 77560,
+    "conversions": 6,
+    "revenue": 285246
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 12505,
+    "clicks": 1291,
+    "cost": 351152,
+    "conversions": 71,
+    "revenue": 2958712
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 15914,
+    "clicks": 630,
+    "cost": 256410,
+    "conversions": 46,
+    "revenue": 1263206
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 1470,
+    "clicks": 33,
+    "cost": 9438,
+    "conversions": 1,
+    "revenue": 76871
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 12353,
+    "clicks": 282,
+    "cost": 32712,
+    "conversions": 12,
+    "revenue": 582084
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 8692,
+    "clicks": 158,
+    "cost": 80580,
+    "conversions": 11,
+    "revenue": 490908
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 989,
+    "clicks": 15,
+    "cost": 8940,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 1049,
+    "clicks": 29,
+    "cost": 5133,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 2620,
+    "clicks": 254,
+    "cost": 50546,
+    "conversions": 17,
+    "revenue": 1100291
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 7013,
+    "clicks": 140,
+    "cost": 34440,
+    "conversions": 1,
+    "revenue": 46820
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 9211,
+    "clicks": 368,
+    "cost": 75808,
+    "conversions": 19,
+    "revenue": 1460606
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 14267,
+    "clicks": 1207,
+    "cost": 590223,
+    "conversions": 95,
+    "revenue": 4980375
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 8336,
+    "clicks": 861,
+    "cost": 297045,
+    "conversions": 63,
+    "revenue": 2471553
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 11505,
+    "clicks": 154,
+    "cost": 48972,
+    "conversions": 10,
+    "revenue": 488340
+  },
+  {
+    "stat_date": "2026-11-02",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 7588,
+    "clicks": 472,
+    "cost": 264320,
+    "conversions": 5,
+    "revenue": 346185
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 4933,
+    "clicks": 465,
+    "cost": 243195,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 4551,
+    "clicks": 145,
+    "cost": 61915,
+    "conversions": 6,
+    "revenue": 110136
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 16916,
+    "clicks": 944,
+    "cost": 412528,
+    "conversions": 35,
+    "revenue": 1002995
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 18464,
+    "clicks": 742,
+    "cost": 395486,
+    "conversions": 19,
+    "revenue": 926649
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 5119,
+    "clicks": 74,
+    "cost": 48248,
+    "conversions": 4,
+    "revenue": 105544
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 8206,
+    "clicks": 99,
+    "cost": 17325,
+    "conversions": 5,
+    "revenue": 141605
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 12827,
+    "clicks": 1225,
+    "cost": 371175,
+    "conversions": 74,
+    "revenue": 5217370
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 3200,
+    "clicks": 118,
+    "cost": 77644,
+    "conversions": 2,
+    "revenue": 42060
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 11231,
+    "clicks": 1178,
+    "cost": 554838,
+    "conversions": 1,
+    "revenue": 30238
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 19823,
+    "clicks": 1519,
+    "cost": 864311,
+    "conversions": 23,
+    "revenue": 822595
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 4755,
+    "clicks": 474,
+    "cost": 134142,
+    "conversions": 33,
+    "revenue": 1720158
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 1067,
+    "clicks": 69,
+    "cost": 33120,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 15801,
+    "clicks": 1678,
+    "cost": 458094,
+    "conversions": 73,
+    "revenue": 1694841
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 2683,
+    "clicks": 232,
+    "cost": 157528,
+    "conversions": 7,
+    "revenue": 329434
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 14905,
+    "clicks": 1467,
+    "cost": 833256,
+    "conversions": 82,
+    "revenue": 2139134
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 6323,
+    "clicks": 31,
+    "cost": 20956,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 9079,
+    "clicks": 965,
+    "cost": 329065,
+    "conversions": 8,
+    "revenue": 577904
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 6471,
+    "clicks": 530,
+    "cost": 331250,
+    "conversions": 42,
+    "revenue": 2933406
+  },
+  {
+    "stat_date": "2026-11-03",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 13053,
+    "clicks": 507,
+    "cost": 196209,
+    "conversions": 14,
+    "revenue": 679784
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 4002,
+    "clicks": 179,
+    "cost": 121899,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 8672,
+    "clicks": 584,
+    "cost": 186880,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 12418,
+    "clicks": 213,
+    "cost": 129078,
+    "conversions": 16,
+    "revenue": 382832
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 10031,
+    "clicks": 576,
+    "cost": 247104,
+    "conversions": 36,
+    "revenue": 2791548
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 5892,
+    "clicks": 227,
+    "cost": 153906,
+    "conversions": 7,
+    "revenue": 182658
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 821,
+    "clicks": 24,
+    "cost": 12744,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 7585,
+    "clicks": 371,
+    "cost": 115381,
+    "conversions": 26,
+    "revenue": 1010984
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 6115,
+    "clicks": 727,
+    "cost": 429657,
+    "conversions": 50,
+    "revenue": 1305850
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 10751,
+    "clicks": 1328,
+    "cost": 290832,
+    "conversions": 100,
+    "revenue": 3233500
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 19103,
+    "clicks": 1382,
+    "cost": 753190,
+    "conversions": 58,
+    "revenue": 850454
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 19733,
+    "clicks": 2463,
+    "cost": 1184703,
+    "conversions": 46,
+    "revenue": 1617544
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 19602,
+    "clicks": 1412,
+    "cost": 121432,
+    "conversions": 50,
+    "revenue": 2668000
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 2970,
+    "clicks": 355,
+    "cost": 182825,
+    "conversions": 7,
+    "revenue": 550781
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 2379,
+    "clicks": 142,
+    "cost": 54670,
+    "conversions": 9,
+    "revenue": 640908
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 12712,
+    "clicks": 309,
+    "cost": 122673,
+    "conversions": 15,
+    "revenue": 275460
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 18062,
+    "clicks": 764,
+    "cost": 262816,
+    "conversions": 20,
+    "revenue": 1380640
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 14686,
+    "clicks": 1628,
+    "cost": 862840,
+    "conversions": 93,
+    "revenue": 7044471
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 2938,
+    "clicks": 299,
+    "cost": 167739,
+    "conversions": 4,
+    "revenue": 148972
+  },
+  {
+    "stat_date": "2026-11-04",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 6238,
+    "clicks": 124,
+    "cost": 27900,
+    "conversions": 9,
+    "revenue": 452925
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 5242,
+    "clicks": 560,
+    "cost": 196560,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 8328,
+    "clicks": 631,
+    "cost": 266282,
+    "conversions": 10,
+    "revenue": 661510
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 15573,
+    "clicks": 1352,
+    "cost": 605696,
+    "conversions": 97,
+    "revenue": 2706591
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 18935,
+    "clicks": 2093,
+    "cost": 745108,
+    "conversions": 37,
+    "revenue": 1806229
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 2960,
+    "clicks": 207,
+    "cost": 128133,
+    "conversions": 15,
+    "revenue": 748905
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 13056,
+    "clicks": 403,
+    "cost": 120094,
+    "conversions": 20,
+    "revenue": 1438260
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 12016,
+    "clicks": 1425,
+    "cost": 676875,
+    "conversions": 68,
+    "revenue": 3707292
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 7142,
+    "clicks": 810,
+    "cost": 511110,
+    "conversions": 26,
+    "revenue": 973752
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 15648,
+    "clicks": 739,
+    "cost": 288210,
+    "conversions": 41,
+    "revenue": 876375
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 4054,
+    "clicks": 374,
+    "cost": 157828,
+    "conversions": 20,
+    "revenue": 1189460
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 14021,
+    "clicks": 318,
+    "cost": 183486,
+    "conversions": 6,
+    "revenue": 347478
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 13412,
+    "clicks": 1380,
+    "cost": 426420,
+    "conversions": 31,
+    "revenue": 748991
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 15822,
+    "clicks": 1020,
+    "cost": 575280,
+    "conversions": 77,
+    "revenue": 1542926
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 2067,
+    "clicks": 19,
+    "cost": 4446,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 9916,
+    "clicks": 665,
+    "cost": 133000,
+    "conversions": 36,
+    "revenue": 961992
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 15287,
+    "clicks": 1695,
+    "cost": 762750,
+    "conversions": 96,
+    "revenue": 5624640
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 2774,
+    "clicks": 37,
+    "cost": 25382,
+    "conversions": 2,
+    "revenue": 93274
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 15508,
+    "clicks": 1022,
+    "cost": 215642,
+    "conversions": 19,
+    "revenue": 937726
+  },
+  {
+    "stat_date": "2026-11-05",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": 741,
+    "clicks": 60,
+    "cost": 20340,
+    "conversions": 5,
+    "revenue": 252015
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 3752,
+    "clicks": 273,
+    "cost": 89817,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 8171,
+    "clicks": 640,
+    "cost": 165760,
+    "conversions": 44,
+    "revenue": 1377772
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 17414,
+    "clicks": 1854,
+    "cost": 1290384,
+    "conversions": 70,
+    "revenue": 3315270
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 19743,
+    "clicks": 449,
+    "cost": 303524,
+    "conversions": 21,
+    "revenue": 1157835
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 15321,
+    "clicks": 343,
+    "cost": 75803,
+    "conversions": 1,
+    "revenue": 40085
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 3290,
+    "clicks": 246,
+    "cost": 62238,
+    "conversions": 9,
+    "revenue": 155016
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 3142,
+    "clicks": 174,
+    "cost": 74994,
+    "conversions": 10,
+    "revenue": 523280
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 10755,
+    "clicks": 244,
+    "cost": 59536,
+    "conversions": 3,
+    "revenue": 234456
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 7159,
+    "clicks": 328,
+    "cost": 138416,
+    "conversions": 27,
+    "revenue": 1086615
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 15349,
+    "clicks": 1620,
+    "cost": 845640,
+    "conversions": 85,
+    "revenue": 1653420
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 6295,
+    "clicks": 283,
+    "cost": 126501,
+    "conversions": 18,
+    "revenue": 1364022
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 5260,
+    "clicks": 435,
+    "cost": 198360,
+    "conversions": 10,
+    "revenue": 443290
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 13595,
+    "clicks": 617,
+    "cost": 286905,
+    "conversions": 4,
+    "revenue": 205440
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 18038,
+    "clicks": 695,
+    "cost": 184870,
+    "conversions": 34,
+    "revenue": 2394892
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 999,
+    "clicks": 56,
+    "cost": 29568,
+    "conversions": 3,
+    "revenue": 142536
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 12980,
+    "clicks": 1081,
+    "cost": 735080,
+    "conversions": 82,
+    "revenue": 5965582
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 13789,
+    "clicks": 1613,
+    "cost": 908119,
+    "conversions": 4,
+    "revenue": 177160
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 13919,
+    "clicks": 1664,
+    "cost": 545792,
+    "conversions": 138,
+    "revenue": 5145606
+  },
+  {
+    "stat_date": "2026-11-06",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 13036,
+    "clicks": 1304,
+    "cost": 826736,
+    "conversions": 91,
+    "revenue": 3821181
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 1431,
+    "clicks": 160,
+    "cost": 85120,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 3356,
+    "clicks": 290,
+    "cost": 24070,
+    "conversions": 9,
+    "revenue": 287586
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 1306,
+    "clicks": 30,
+    "cost": 9030,
+    "conversions": 2,
+    "revenue": 95418
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 3728,
+    "clicks": 38,
+    "cost": 5776,
+    "conversions": 3,
+    "revenue": 157968
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 18283,
+    "clicks": 392,
+    "cost": 116032,
+    "conversions": 2,
+    "revenue": 100428
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 8787,
+    "clicks": 203,
+    "cost": 109823,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 4658,
+    "clicks": 130,
+    "cost": 50440,
+    "conversions": 10,
+    "revenue": 225800
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 5548,
+    "clicks": 452,
+    "cost": 190744,
+    "conversions": 7,
+    "revenue": 408618
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 7562,
+    "clicks": 898,
+    "cost": 463368,
+    "conversions": 34,
+    "revenue": 703222
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 8541,
+    "clicks": 467,
+    "cost": 80791,
+    "conversions": 26,
+    "revenue": 1484210
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 9513,
+    "clicks": 6,
+    "cost": 2112,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 18852,
+    "clicks": 102,
+    "cost": 70686,
+    "conversions": 8,
+    "revenue": 566040
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 6017,
+    "clicks": 181,
+    "cost": 74029,
+    "conversions": 13,
+    "revenue": 972972
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 16647,
+    "clicks": 1024,
+    "cost": 296960,
+    "conversions": 66,
+    "revenue": 4290462
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 18473,
+    "clicks": 1378,
+    "cost": 183274,
+    "conversions": 9,
+    "revenue": 381321
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 5446,
+    "clicks": 590,
+    "cost": 98530,
+    "conversions": 2,
+    "revenue": 73896
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 1729,
+    "clicks": 209,
+    "cost": 130416,
+    "conversions": 12,
+    "revenue": 276312
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 6151,
+    "clicks": 642,
+    "cost": 353100,
+    "conversions": 33,
+    "revenue": 2603469
+  },
+  {
+    "stat_date": "2026-11-07",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 13253,
+    "clicks": 620,
+    "cost": 231880,
+    "conversions": 32,
+    "revenue": 1290272
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 5538,
+    "clicks": 649,
+    "cost": 228448,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 12809,
+    "clicks": 177,
+    "cost": 84960,
+    "conversions": 2,
+    "revenue": 149842
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 4383,
+    "clicks": 166,
+    "cost": 22908,
+    "conversions": 8,
+    "revenue": 152160
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 8397,
+    "clicks": 250,
+    "cost": 175000,
+    "conversions": 1,
+    "revenue": 73193
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 724,
+    "clicks": 16,
+    "cost": 7056,
+    "conversions": 1,
+    "revenue": 29316
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 16640,
+    "clicks": 842,
+    "cost": 303120,
+    "conversions": 8,
+    "revenue": 341624
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 18348,
+    "clicks": 193,
+    "cost": 75656,
+    "conversions": 12,
+    "revenue": 627480
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 19579,
+    "clicks": 516,
+    "cost": 50568,
+    "conversions": 12,
+    "revenue": 368232
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 890,
+    "clicks": 31,
+    "cost": 15314,
+    "conversions": 1,
+    "revenue": 30278
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 8275,
+    "clicks": 579,
+    "cost": 222336,
+    "conversions": 33,
+    "revenue": 591888
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 17542,
+    "clicks": 158,
+    "cost": 82634,
+    "conversions": 7,
+    "revenue": 136024
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 10802,
+    "clicks": 1196,
+    "cost": 453284,
+    "conversions": 6,
+    "revenue": 407184
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 14480,
+    "clicks": 1669,
+    "cost": 904598,
+    "conversions": 88,
+    "revenue": 4435200
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 7444,
+    "clicks": 73,
+    "cost": 38909,
+    "conversions": 6,
+    "revenue": 270522
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 14169,
+    "clicks": 1311,
+    "cost": 158631,
+    "conversions": 74,
+    "revenue": 2073628
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 6367,
+    "clicks": 678,
+    "cost": 252216,
+    "conversions": 23,
+    "revenue": 760012
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 12794,
+    "clicks": 887,
+    "cost": 126841,
+    "conversions": 48,
+    "revenue": 2782032
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 11126,
+    "clicks": 330,
+    "cost": 179520,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-08",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 12347,
+    "clicks": 42,
+    "cost": 15834,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 6378,
+    "clicks": 415,
+    "cost": 117445,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 10869,
+    "clicks": 128,
+    "cost": 45696,
+    "conversions": 9,
+    "revenue": 514665
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 13522,
+    "clicks": 755,
+    "cost": 374480,
+    "conversions": 37,
+    "revenue": 955562
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 4846,
+    "clicks": 532,
+    "cost": 312284,
+    "conversions": 36,
+    "revenue": 2666304
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 7610,
+    "clicks": 651,
+    "cost": 212877,
+    "conversions": 34,
+    "revenue": 1525036
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 14698,
+    "clicks": 159,
+    "cost": 92379,
+    "conversions": 13,
+    "revenue": 559299
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 5978,
+    "clicks": 476,
+    "cost": 156604,
+    "conversions": 20,
+    "revenue": 946600
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 14200,
+    "clicks": 1487,
+    "cost": 154648,
+    "conversions": 35,
+    "revenue": 2544395
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 14715,
+    "clicks": 1777,
+    "cost": 366062,
+    "conversions": 89,
+    "revenue": 3221444
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C11",
+    "campaign_name": "가상1 캠페인 11",
+    "impressions": 4059,
+    "clicks": 284,
+    "cost": 50268,
+    "conversions": 6,
+    "revenue": 303480
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C12",
+    "campaign_name": "가상1 캠페인 12",
+    "impressions": 14897,
+    "clicks": 1377,
+    "cost": 841347,
+    "conversions": 91,
+    "revenue": 7164430
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C13",
+    "campaign_name": "가상1 캠페인 13",
+    "impressions": 9928,
+    "clicks": 963,
+    "cost": 165636,
+    "conversions": 10,
+    "revenue": 784740
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C14",
+    "campaign_name": "가상1 캠페인 14",
+    "impressions": 7929,
+    "clicks": 506,
+    "cost": 141174,
+    "conversions": 25,
+    "revenue": 574625
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C15",
+    "campaign_name": "가상1 캠페인 15",
+    "impressions": 3888,
+    "clicks": 61,
+    "cost": 9089,
+    "conversions": 4,
+    "revenue": 151300
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C16",
+    "campaign_name": "가상1 캠페인 16",
+    "impressions": 9728,
+    "clicks": 1068,
+    "cost": 98256,
+    "conversions": 67,
+    "revenue": 4349841
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C17",
+    "campaign_name": "가상1 캠페인 17",
+    "impressions": 18806,
+    "clicks": 1851,
+    "cost": 938457,
+    "conversions": 82,
+    "revenue": 4892448
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C18",
+    "campaign_name": "가상1 캠페인 18",
+    "impressions": 2263,
+    "clicks": 187,
+    "cost": 94435,
+    "conversions": 2,
+    "revenue": 157382
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C19",
+    "campaign_name": "가상1 캠페인 19",
+    "impressions": 4893,
+    "clicks": 30,
+    "cost": 17190,
+    "conversions": 1,
+    "revenue": 34823
+  },
+  {
+    "stat_date": "2026-11-09",
+    "campaign_id": "C20",
+    "campaign_name": "가상1 캠페인 20",
+    "impressions": 17047,
+    "clicks": 1159,
+    "cost": 264252,
+    "conversions": 4,
+    "revenue": 261004
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C01",
+    "campaign_name": "가상1 캠페인 01",
+    "impressions": 1000,
+    "clicks": 0,
+    "cost": 0,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C02",
+    "campaign_name": "가상1 캠페인 02",
+    "impressions": 8463,
+    "clicks": 615,
+    "cost": 119310,
+    "conversions": 0,
+    "revenue": 0
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C03",
+    "campaign_name": "가상1 캠페인 03",
+    "impressions": 9801,
+    "clicks": 247,
+    "cost": 168454,
+    "conversions": 14,
+    "revenue": 656040
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C04",
+    "campaign_name": "가상1 캠페인 04",
+    "impressions": 3232,
+    "clicks": 314,
+    "cost": 48984,
+    "conversions": 12,
+    "revenue": 391716
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C05",
+    "campaign_name": "가상1 캠페인 05",
+    "impressions": 13569,
+    "clicks": 1032,
+    "cost": 558312,
+    "conversions": 58,
+    "revenue": 2562092
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C06",
+    "campaign_name": "가상1 캠페인 06",
+    "impressions": 4605,
+    "clicks": 561,
+    "cost": 999,
+    "conversions": 19,
+    "revenue": 1231789
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C07",
+    "campaign_name": "가상1 캠페인 07",
+    "impressions": 8926,
+    "clicks": 40,
+    "cost": 999,
+    "conversions": 3,
+    "revenue": 226635
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C08",
+    "campaign_name": "가상1 캠페인 08",
+    "impressions": 8696,
+    "clicks": 694,
+    "cost": 999,
+    "conversions": 19,
+    "revenue": 285684
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C09",
+    "campaign_name": "가상1 캠페인 09",
+    "impressions": 13335,
+    "clicks": 1235,
+    "cost": 999,
+    "conversions": 85,
+    "revenue": 2232440
+  },
+  {
+    "stat_date": "2026-10-22",
+    "campaign_id": "C10",
+    "campaign_name": "가상1 캠페인 10",
+    "impressions": 7391,
+    "clicks": 625,
+    "cost": 999,
+    "conversions": 28,
+    "revenue": 2164932
+  },
+  {
+    "stat_date": "2026-02-30",
+    "campaign_id": "BAD00",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD02",
+    "campaign_name": "무효 검증행",
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD03",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": "12x",
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD04",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": -1,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD05",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": true,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD06",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": "1,000"
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD07",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 1.5,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": 5000
+  },
+  {
+    "stat_date": "2026-10-23",
+    "campaign_id": "BAD08",
+    "campaign_name": "무효 검증행",
+    "impressions": 100,
+    "clicks": 10,
+    "cost": 1000,
+    "conversions": 1,
+    "revenue": ""
+  }
 ]

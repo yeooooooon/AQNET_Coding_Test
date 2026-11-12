@@ -1,4 +1,4201 @@
 [
-  {"date":"2026-11-01","campaignId":"M-201","name":"신규 고객 전환","impressions":"8000","link_clicks":"170","spend":"40000","purchases":"4","purchase_value":"200000"},
-  {"date":"2026-11-02","campaignId":"M-202","name":"리타겟팅 전환","impressions":"6000","link_clicks":"120","spend":"50000","purchases":"5","purchase_value":"210000"}
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": null,
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "9811",
+    "inline_link_clicks": "322",
+    "spend": "157780",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "8000",
+    "inline_link_clicks": "200",
+    "spend": "201",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "0",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "0",
+    "purchases": "1",
+    "purchase_value": "17000"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13416",
+    "inline_link_clicks": "330",
+    "spend": "35970",
+    "purchases": "24",
+    "purchase_value": "1642920"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "17618",
+    "inline_link_clicks": "1209",
+    "spend": "351819",
+    "purchases": "43",
+    "purchase_value": "803842"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "17949",
+    "inline_link_clicks": "1594",
+    "spend": "282138",
+    "purchases": "57",
+    "purchase_value": "3490737"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "10877",
+    "inline_link_clicks": "373",
+    "spend": "68259",
+    "purchases": "10",
+    "purchase_value": "558830"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "11581",
+    "inline_link_clicks": "610",
+    "spend": "117120",
+    "purchases": "48",
+    "purchase_value": "2765376"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "15321",
+    "inline_link_clicks": "485",
+    "spend": "296820",
+    "purchases": "19",
+    "purchase_value": "1108422"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "18967",
+    "inline_link_clicks": "767",
+    "spend": "441792",
+    "purchases": "11",
+    "purchase_value": "429231"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "15301",
+    "inline_link_clicks": "634",
+    "spend": "138846",
+    "purchases": "11",
+    "purchase_value": "327338"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "16370",
+    "inline_link_clicks": "1592",
+    "spend": "246760",
+    "purchases": "45",
+    "purchase_value": "2986965"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "15227",
+    "inline_link_clicks": "1764",
+    "spend": "994896",
+    "purchases": "22",
+    "purchase_value": "1007622"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "13756",
+    "inline_link_clicks": "837",
+    "spend": "246078",
+    "purchases": "6",
+    "purchase_value": "241998"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "6392",
+    "inline_link_clicks": "125",
+    "spend": "79125",
+    "purchases": "9",
+    "purchase_value": "475497"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "1715",
+    "inline_link_clicks": "147",
+    "spend": "90258",
+    "purchases": "3",
+    "purchase_value": "211842"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "8332",
+    "inline_link_clicks": "167",
+    "spend": "92852",
+    "purchases": "10",
+    "purchase_value": "290690"
+  },
+  {
+    "date_start": "2026-10-21",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": "13878",
+    "inline_link_clicks": "476",
+    "spend": "213724",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "7038",
+    "inline_link_clicks": "759",
+    "spend": "345345",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "10447",
+    "inline_link_clicks": "638",
+    "spend": "54230",
+    "purchases": "51",
+    "purchase_value": "3506454"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "19742",
+    "inline_link_clicks": "953",
+    "spend": "602296",
+    "purchases": "44",
+    "purchase_value": "2127444"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "8168",
+    "inline_link_clicks": "544",
+    "spend": "164832",
+    "purchases": "12",
+    "purchase_value": "509364"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13241",
+    "inline_link_clicks": "146",
+    "spend": "73730",
+    "purchases": "11",
+    "purchase_value": "581834"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "13024",
+    "inline_link_clicks": "143",
+    "spend": "19448",
+    "purchases": "5",
+    "purchase_value": "157320"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "12623",
+    "inline_link_clicks": "436",
+    "spend": "138648",
+    "purchases": "15",
+    "purchase_value": "759525"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "16844",
+    "inline_link_clicks": "1088",
+    "spend": "202368",
+    "purchases": "60",
+    "purchase_value": "1979160"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "4718",
+    "inline_link_clicks": "152",
+    "spend": "85120",
+    "purchases": "5",
+    "purchase_value": "192345"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "6345",
+    "inline_link_clicks": "406",
+    "spend": "220052",
+    "purchases": "32",
+    "purchase_value": "1189664"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "13926",
+    "inline_link_clicks": "536",
+    "spend": "312488",
+    "purchases": "5",
+    "purchase_value": "291985"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "11221",
+    "inline_link_clicks": "910",
+    "spend": "120120",
+    "purchases": "60",
+    "purchase_value": "2030760"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "3896",
+    "inline_link_clicks": "26",
+    "spend": "11700",
+    "purchases": "2",
+    "purchase_value": "33438"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "9326",
+    "inline_link_clicks": "583",
+    "spend": "55968",
+    "purchases": "1",
+    "purchase_value": "42758"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "12364",
+    "inline_link_clicks": "729",
+    "spend": "220887",
+    "purchases": "13",
+    "purchase_value": "781859"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "4491",
+    "inline_link_clicks": "479",
+    "spend": "97237",
+    "purchases": "11",
+    "purchase_value": "323763"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "13728",
+    "inline_link_clicks": "1114",
+    "spend": "366506",
+    "purchases": "19",
+    "purchase_value": "1044848"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "19595",
+    "inline_link_clicks": "813",
+    "spend": "547149",
+    "purchases": "64",
+    "purchase_value": "3834496"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "2793",
+    "inline_link_clicks": "320",
+    "spend": "25600",
+    "purchases": "6",
+    "purchase_value": "349344"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "8816",
+    "inline_link_clicks": "202",
+    "spend": "50298",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "12586",
+    "inline_link_clicks": "359",
+    "spend": "146831",
+    "purchases": "19",
+    "purchase_value": "1358804"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "8319",
+    "inline_link_clicks": "714",
+    "spend": "244902",
+    "purchases": "24",
+    "purchase_value": "510600"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "3875",
+    "inline_link_clicks": "315",
+    "spend": "96705",
+    "purchases": "23",
+    "purchase_value": "859050"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "15751",
+    "inline_link_clicks": "285",
+    "spend": "121410",
+    "purchases": "11",
+    "purchase_value": "506682"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "11232",
+    "inline_link_clicks": "656",
+    "spend": "371296",
+    "purchases": "43",
+    "purchase_value": "2278699"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "19575",
+    "inline_link_clicks": "  1677  ",
+    "spend": "563472",
+    "purchases": "119",
+    "purchase_value": "5308709"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "6072",
+    "inline_link_clicks": "296",
+    "spend": "166648",
+    "purchases": "4",
+    "purchase_value": "174860"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "1065",
+    "inline_link_clicks": "133",
+    "spend": "82327",
+    "purchases": "4",
+    "purchase_value": "134844"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "9848",
+    "inline_link_clicks": "102",
+    "spend": "43452",
+    "purchases": "7",
+    "purchase_value": "137137"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "5254",
+    "inline_link_clicks": "376",
+    "spend": "256808",
+    "purchases": "22",
+    "purchase_value": "789690"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "11754",
+    "inline_link_clicks": "289",
+    "spend": "60401",
+    "purchases": "23",
+    "purchase_value": "957398"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "1391",
+    "inline_link_clicks": "88",
+    "spend": "16192",
+    "purchases": "2",
+    "purchase_value": "51212"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "6268",
+    "inline_link_clicks": "775",
+    "spend": "339450",
+    "purchases": "6",
+    "purchase_value": "87888"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "4907",
+    "inline_link_clicks": "253",
+    "spend": "112838",
+    "purchases": "2",
+    "purchase_value": "72746"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "7569",
+    "inline_link_clicks": "588",
+    "spend": "285180",
+    "purchases": "40",
+    "purchase_value": "2169120"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "3772",
+    "inline_link_clicks": "333",
+    "spend": "190809",
+    "purchases": "1",
+    "purchase_value": "56658"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "15034",
+    "inline_link_clicks": "369",
+    "spend": "105165",
+    "purchases": "29",
+    "purchase_value": "996962"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "7641",
+    "inline_link_clicks": "434",
+    "spend": "152334",
+    "purchases": "4",
+    "purchase_value": "311488"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "8997",
+    "inline_link_clicks": "138",
+    "spend": "88734",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "12599",
+    "inline_link_clicks": "1349",
+    "spend": "445170",
+    "purchases": "8",
+    "purchase_value": "442080"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "14861",
+    "inline_link_clicks": "631",
+    "spend": "128724",
+    "purchases": "38",
+    "purchase_value": "1913604"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "10253",
+    "inline_link_clicks": "210",
+    "spend": "59850",
+    "purchases": "6",
+    "purchase_value": "204276"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "9713",
+    "inline_link_clicks": "875",
+    "spend": "359625",
+    "purchases": "57",
+    "purchase_value": "2672046"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "14934",
+    "inline_link_clicks": "420",
+    "spend": "228900",
+    "purchases": "1",
+    "purchase_value": "74068"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "16861",
+    "inline_link_clicks": "1096",
+    "spend": "119464",
+    "purchases": "73",
+    "purchase_value": "2022465"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "8632",
+    "inline_link_clicks": "11",
+    "spend": "4103",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "14336",
+    "inline_link_clicks": "788",
+    "spend": "200940",
+    "purchases": "22",
+    "purchase_value": "528660"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "12366",
+    "inline_link_clicks": "76",
+    "spend": "38760",
+    "purchases": "2",
+    "purchase_value": "29696"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "6493",
+    "inline_link_clicks": "577",
+    "spend": "94051",
+    "purchases": "5",
+    "purchase_value": "334510"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "17698",
+    "inline_link_clicks": "709",
+    "spend": "292817",
+    "purchases": "8",
+    "purchase_value": "608856"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "7097",
+    "inline_link_clicks": "826",
+    "spend": "257712",
+    "purchases": "50",
+    "purchase_value": "3895550"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "15940",
+    "inline_link_clicks": "192",
+    "spend": "117504",
+    "purchases": "12",
+    "purchase_value": "268080"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "5601",
+    "inline_link_clicks": "65",
+    "spend": "33865",
+    "purchases": "1",
+    "purchase_value": "60457"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "12384",
+    "inline_link_clicks": "883",
+    "spend": "201324",
+    "purchases": "36",
+    "purchase_value": "646128"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "865",
+    "inline_link_clicks": "86",
+    "spend": "56588",
+    "purchases": "4",
+    "purchase_value": "253548"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "2905",
+    "inline_link_clicks": "132",
+    "spend": "51216",
+    "purchases": "8",
+    "purchase_value": "145640"
+  },
+  {
+    "date_start": "2026-10-24",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "14047",
+    "inline_link_clicks": "741",
+    "spend": "452010",
+    "purchases": "53",
+    "purchase_value": "2492219"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "15373",
+    "inline_link_clicks": "839",
+    "spend": "239115",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "4205",
+    "inline_link_clicks": "170",
+    "spend": "99110",
+    "purchases": "1",
+    "purchase_value": "14327"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "17927",
+    "inline_link_clicks": "1309",
+    "spend": "341649",
+    "purchases": "53",
+    "purchase_value": "1928352"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "12353",
+    "inline_link_clicks": "1222",
+    "spend": "530348",
+    "purchases": "1",
+    "purchase_value": "41404"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "18920",
+    "inline_link_clicks": "1062",
+    "spend": "128502",
+    "purchases": "85",
+    "purchase_value": "4029085"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "17564",
+    "inline_link_clicks": "869",
+    "spend": "122529",
+    "purchases": "41",
+    "purchase_value": "2009041"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "16834",
+    "inline_link_clicks": "1399",
+    "spend": "913547",
+    "purchases": "45",
+    "purchase_value": "1963350"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "13015",
+    "inline_link_clicks": "793",
+    "spend": "141947",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "16418",
+    "inline_link_clicks": "1866",
+    "spend": "236982",
+    "purchases": "101",
+    "purchase_value": "2442786"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "4769",
+    "inline_link_clicks": "149",
+    "spend": "75245",
+    "purchases": "11",
+    "purchase_value": "847033"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "11277",
+    "inline_link_clicks": "1158",
+    "spend": "736488",
+    "purchases": "87",
+    "purchase_value": "6346041"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "614",
+    "inline_link_clicks": "23",
+    "spend": "7291",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "8505",
+    "inline_link_clicks": "523",
+    "spend": "347795",
+    "purchases": "32",
+    "purchase_value": "1652128"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "12233",
+    "inline_link_clicks": "1461",
+    "spend": "599010",
+    "purchases": "17",
+    "purchase_value": "742594"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "12267",
+    "inline_link_clicks": "251",
+    "spend": "109687",
+    "purchases": "6",
+    "purchase_value": "305298"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "15638",
+    "inline_link_clicks": "1809",
+    "spend": "1221075",
+    "purchases": "43",
+    "purchase_value": "2074621"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "8919",
+    "inline_link_clicks": "633",
+    "spend": "120903",
+    "purchases": "9",
+    "purchase_value": "648414"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "18267",
+    "inline_link_clicks": "1739",
+    "spend": "763421",
+    "purchases": "91",
+    "purchase_value": "4822909"
+  },
+  {
+    "date_start": "2026-10-25",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "996",
+    "inline_link_clicks": "61",
+    "spend": "5734",
+    "purchases": "3",
+    "purchase_value": "201129"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "1916",
+    "inline_link_clicks": "68",
+    "spend": "13396",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "18234",
+    "inline_link_clicks": "2218",
+    "spend": "1364070",
+    "purchases": "81",
+    "purchase_value": "3021867"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "13242",
+    "inline_link_clicks": "1195",
+    "spend": "224660",
+    "purchases": "39",
+    "purchase_value": "2182401"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "4462",
+    "inline_link_clicks": "168",
+    "spend": "110040",
+    "purchases": "8",
+    "purchase_value": "440064"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "17496",
+    "inline_link_clicks": "270",
+    "spend": "28620",
+    "purchases": "8",
+    "purchase_value": "533800"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "12865",
+    "inline_link_clicks": "39",
+    "spend": "11622",
+    "purchases": "3",
+    "purchase_value": "174114"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "10769",
+    "inline_link_clicks": "1326",
+    "spend": "827424",
+    "purchases": "45",
+    "purchase_value": "2230425"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "14674",
+    "inline_link_clicks": "642",
+    "spend": "299814",
+    "purchases": "9",
+    "purchase_value": "432117"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "14709",
+    "inline_link_clicks": "1465",
+    "spend": "657785",
+    "purchases": "7",
+    "purchase_value": "174622"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "11414",
+    "inline_link_clicks": "126",
+    "spend": "29610",
+    "purchases": "9",
+    "purchase_value": "428940"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "3208",
+    "inline_link_clicks": "86",
+    "spend": "22618",
+    "purchases": "4",
+    "purchase_value": "185996"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "6370",
+    "inline_link_clicks": "638",
+    "spend": "340692",
+    "purchases": "6",
+    "purchase_value": "221802"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "8173",
+    "inline_link_clicks": "772",
+    "spend": "396808",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "14363",
+    "inline_link_clicks": "1558",
+    "spend": "507908",
+    "purchases": "97",
+    "purchase_value": "7373552"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "11415",
+    "inline_link_clicks": "246",
+    "spend": "78720",
+    "purchases": "6",
+    "purchase_value": "199050"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "15165",
+    "inline_link_clicks": "220",
+    "spend": "114180",
+    "purchases": "13",
+    "purchase_value": "897091"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "2834",
+    "inline_link_clicks": "181",
+    "spend": "16833",
+    "purchases": "4",
+    "purchase_value": "262376"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "13257",
+    "inline_link_clicks": "273",
+    "spend": "97188",
+    "purchases": "8",
+    "purchase_value": "263920"
+  },
+  {
+    "date_start": "2026-10-26",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": "3317",
+    "inline_link_clicks": "322",
+    "spend": "69552",
+    "purchases": "21",
+    "purchase_value": "1341984"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "3524",
+    "inline_link_clicks": "98",
+    "spend": "49392",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "10198",
+    "inline_link_clicks": "1117",
+    "spend": "333983",
+    "purchases": "69",
+    "purchase_value": "2570526"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "4389",
+    "inline_link_clicks": "354",
+    "spend": "111156",
+    "purchases": "22",
+    "purchase_value": "748770"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "4941",
+    "inline_link_clicks": "586",
+    "spend": "361562",
+    "purchases": "21",
+    "purchase_value": "558873"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13198",
+    "inline_link_clicks": "10",
+    "spend": "2010",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "16639",
+    "inline_link_clicks": "209",
+    "spend": "124146",
+    "purchases": "4",
+    "purchase_value": "70864"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "5380",
+    "inline_link_clicks": "284",
+    "spend": "60208",
+    "purchases": "1",
+    "purchase_value": "37987"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "16601",
+    "inline_link_clicks": "100",
+    "spend": "50200",
+    "purchases": "4",
+    "purchase_value": "254920"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "17884",
+    "inline_link_clicks": "1159",
+    "spend": "710467",
+    "purchases": "50",
+    "purchase_value": "2154300"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "13962",
+    "inline_link_clicks": "699",
+    "spend": "118131",
+    "purchases": "4",
+    "purchase_value": "170224"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "10079",
+    "inline_link_clicks": "1214",
+    "spend": "466176",
+    "purchases": "5",
+    "purchase_value": "99420"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "7077",
+    "inline_link_clicks": "533",
+    "spend": "101803",
+    "purchases": "24",
+    "purchase_value": "1726800"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "13146",
+    "inline_link_clicks": "845",
+    "spend": "366730",
+    "purchases": "58",
+    "purchase_value": "3828464"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "9796",
+    "inline_link_clicks": "468",
+    "spend": "234936",
+    "purchases": "5",
+    "purchase_value": "269175"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "11076",
+    "inline_link_clicks": "428",
+    "spend": "101864",
+    "purchases": "6",
+    "purchase_value": "109056"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "19876",
+    "inline_link_clicks": "2024",
+    "spend": "991760",
+    "purchases": "130",
+    "purchase_value": "4686370"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "8119",
+    "inline_link_clicks": "739",
+    "spend": "402755",
+    "purchases": "10",
+    "purchase_value": "331190"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "14852",
+    "inline_link_clicks": "192",
+    "spend": "77376",
+    "purchases": "1",
+    "purchase_value": "27311"
+  },
+  {
+    "date_start": "2026-10-27",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "11749",
+    "inline_link_clicks": "1011",
+    "spend": "415521",
+    "purchases": "64",
+    "purchase_value": "1665792"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "6395",
+    "inline_link_clicks": "758",
+    "spend": "394160",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "7598",
+    "inline_link_clicks": "888",
+    "spend": "409368",
+    "purchases": "46",
+    "purchase_value": "1305296"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "11622",
+    "inline_link_clicks": "583",
+    "spend": "164989",
+    "purchases": "39",
+    "purchase_value": "870519"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "16979",
+    "inline_link_clicks": "281",
+    "spend": "192485",
+    "purchases": "18",
+    "purchase_value": "616302"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "11180",
+    "inline_link_clicks": "1140",
+    "spend": "99180",
+    "purchases": "43",
+    "purchase_value": "3056268"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "5914",
+    "inline_link_clicks": "626",
+    "spend": "290464",
+    "purchases": "26",
+    "purchase_value": "1834404"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "5126",
+    "inline_link_clicks": "590",
+    "spend": "355180",
+    "purchases": "27",
+    "purchase_value": "1177848"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "9153",
+    "inline_link_clicks": "1065",
+    "spend": "627285",
+    "purchases": "62",
+    "purchase_value": "2185562"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "12842",
+    "inline_link_clicks": "1018",
+    "spend": "314562",
+    "purchases": "22",
+    "purchase_value": "467390"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "15372",
+    "inline_link_clicks": "1163",
+    "spend": "797818",
+    "purchases": "38",
+    "purchase_value": "3001544"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "10223",
+    "inline_link_clicks": "61",
+    "spend": "32391",
+    "purchases": "2",
+    "purchase_value": "65670"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "19383",
+    "inline_link_clicks": "651",
+    "spend": "184233",
+    "purchases": "18",
+    "purchase_value": "1025874"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "13390",
+    "inline_link_clicks": "303",
+    "spend": "114231",
+    "purchases": "22",
+    "purchase_value": "1723106"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "1457",
+    "inline_link_clicks": "49",
+    "spend": "9996",
+    "purchases": "3",
+    "purchase_value": "118770"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "19276",
+    "inline_link_clicks": "1622",
+    "spend": "163822",
+    "purchases": "2",
+    "purchase_value": "97118"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "18589",
+    "inline_link_clicks": "1546",
+    "spend": "584388",
+    "purchases": "40",
+    "purchase_value": "2508160"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "17287",
+    "inline_link_clicks": "1660",
+    "spend": "373500",
+    "purchases": "3",
+    "purchase_value": "68022"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "2268",
+    "inline_link_clicks": "176",
+    "spend": "86240",
+    "purchases": "13",
+    "purchase_value": "308360"
+  },
+  {
+    "date_start": "2026-10-28",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "17753",
+    "inline_link_clicks": "951",
+    "spend": "437460",
+    "purchases": "53",
+    "purchase_value": "2627157"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "17882",
+    "inline_link_clicks": "1509",
+    "spend": "390831",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "2793",
+    "inline_link_clicks": "183",
+    "spend": "36234",
+    "purchases": "7",
+    "purchase_value": "381759"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "684",
+    "inline_link_clicks": "36",
+    "spend": "22968",
+    "purchases": "3",
+    "purchase_value": "54720"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "10408",
+    "inline_link_clicks": "825",
+    "spend": "495825",
+    "purchases": "25",
+    "purchase_value": "909700"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13653",
+    "inline_link_clicks": "1270",
+    "spend": "883920",
+    "purchases": "16",
+    "purchase_value": "713744"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "4148",
+    "inline_link_clicks": "143",
+    "spend": "69498",
+    "purchases": "8",
+    "purchase_value": "291544"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "9075",
+    "inline_link_clicks": "1054",
+    "spend": "193936",
+    "purchases": "23",
+    "purchase_value": "1642361"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "16309",
+    "inline_link_clicks": "18",
+    "spend": "7722",
+    "purchases": "1",
+    "purchase_value": "19984"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "3886",
+    "inline_link_clicks": "243",
+    "spend": "89910",
+    "purchases": "14",
+    "purchase_value": "1085896"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "11805",
+    "inline_link_clicks": "342",
+    "spend": "79344",
+    "purchases": "1",
+    "purchase_value": "55419"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "12514",
+    "inline_link_clicks": "76",
+    "spend": "23560",
+    "purchases": "4",
+    "purchase_value": "278980"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "10316",
+    "inline_link_clicks": "1148",
+    "spend": "739312",
+    "purchases": "91",
+    "purchase_value": "7010731"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "7460",
+    "inline_link_clicks": "523",
+    "spend": "56484",
+    "purchases": "27",
+    "purchase_value": "1693089"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "6563",
+    "inline_link_clicks": "793",
+    "spend": "188734",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "8590",
+    "inline_link_clicks": "283",
+    "spend": "27734",
+    "purchases": "11",
+    "purchase_value": "689381"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "16413",
+    "inline_link_clicks": "284",
+    "spend": "54244",
+    "purchases": "10",
+    "purchase_value": "722260"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "9272",
+    "inline_link_clicks": "427",
+    "spend": "207522",
+    "purchases": "5",
+    "purchase_value": "311715"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "10901",
+    "inline_link_clicks": "982",
+    "spend": "534208",
+    "purchases": "55",
+    "purchase_value": "2863850"
+  },
+  {
+    "date_start": "2026-10-29",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "4214",
+    "inline_link_clicks": "338",
+    "spend": "147030",
+    "purchases": "22",
+    "purchase_value": "1270500"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "6755",
+    "inline_link_clicks": "546",
+    "spend": "124488",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "19556",
+    "inline_link_clicks": "760",
+    "spend": "449920",
+    "purchases": "56",
+    "purchase_value": "1269912"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "5108",
+    "inline_link_clicks": "168",
+    "spend": "103992",
+    "purchases": "9",
+    "purchase_value": "418068"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "15232",
+    "inline_link_clicks": "723",
+    "spend": "407772",
+    "purchases": "17",
+    "purchase_value": "785638"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "5378",
+    "inline_link_clicks": "64",
+    "spend": "24512",
+    "purchases": "4",
+    "purchase_value": "79300"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "10237",
+    "inline_link_clicks": "934",
+    "spend": "292342",
+    "purchases": "55",
+    "purchase_value": "3488980"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "13408",
+    "inline_link_clicks": "1132",
+    "spend": "340732",
+    "purchases": "80",
+    "purchase_value": "5659760"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "17235",
+    "inline_link_clicks": "1589",
+    "spend": "834225",
+    "purchases": "27",
+    "purchase_value": "1170396"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "5506",
+    "inline_link_clicks": "578",
+    "spend": "62424",
+    "purchases": "7",
+    "purchase_value": "545132"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "11485",
+    "inline_link_clicks": "134",
+    "spend": "83616",
+    "purchases": "2",
+    "purchase_value": "76644"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "6464",
+    "inline_link_clicks": "391",
+    "spend": "134895",
+    "purchases": "5",
+    "purchase_value": "291945"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "7460",
+    "inline_link_clicks": "533",
+    "spend": "300612",
+    "purchases": "38",
+    "purchase_value": "1829054"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "10231",
+    "inline_link_clicks": "605",
+    "spend": "361790",
+    "purchases": "29",
+    "purchase_value": "615032"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "6238",
+    "inline_link_clicks": "26",
+    "spend": "15678",
+    "purchases": "2",
+    "purchase_value": "110290"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "6728",
+    "inline_link_clicks": "670",
+    "spend": "462300",
+    "purchases": "12",
+    "purchase_value": "274032"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "19567",
+    "inline_link_clicks": "869",
+    "spend": "208560",
+    "purchases": "18",
+    "purchase_value": "846270"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "19546",
+    "inline_link_clicks": "2090",
+    "spend": "1210110",
+    "purchases": "121",
+    "purchase_value": "6257999"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "19942",
+    "inline_link_clicks": "453",
+    "spend": "223782",
+    "purchases": "15",
+    "purchase_value": "489375"
+  },
+  {
+    "date_start": "2026-10-30",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "3674",
+    "inline_link_clicks": "112",
+    "spend": "24864",
+    "purchases": "6",
+    "purchase_value": "403644"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "18739",
+    "inline_link_clicks": "1856",
+    "spend": "1198976",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "10881",
+    "inline_link_clicks": "970",
+    "spend": "289060",
+    "purchases": "61",
+    "purchase_value": "2135488"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "16135",
+    "inline_link_clicks": "444",
+    "spend": "74592",
+    "purchases": "23",
+    "purchase_value": "375406"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "16921",
+    "inline_link_clicks": "155",
+    "spend": "39990",
+    "purchases": "6",
+    "purchase_value": "314862"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "3815",
+    "inline_link_clicks": "214",
+    "spend": "120482",
+    "purchases": "17",
+    "purchase_value": "747575"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "14637",
+    "inline_link_clicks": "746",
+    "spend": "499820",
+    "purchases": "36",
+    "purchase_value": "2743128"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "17998",
+    "inline_link_clicks": "556",
+    "spend": "247976",
+    "purchases": "12",
+    "purchase_value": "773784"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "8786",
+    "inline_link_clicks": "220",
+    "spend": "82500",
+    "purchases": "3",
+    "purchase_value": "65874"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "19463",
+    "inline_link_clicks": "1865",
+    "spend": "1186140",
+    "purchases": "121",
+    "purchase_value": "5611738"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "2810",
+    "inline_link_clicks": "100",
+    "spend": "67700",
+    "purchases": "4",
+    "purchase_value": "307644"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "12817",
+    "inline_link_clicks": "63",
+    "spend": "24066",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "7431",
+    "inline_link_clicks": "156",
+    "spend": "43212",
+    "purchases": "7",
+    "purchase_value": "274274"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "3281",
+    "inline_link_clicks": "240",
+    "spend": "96480",
+    "purchases": "1",
+    "purchase_value": "55086"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "18206",
+    "inline_link_clicks": "135",
+    "spend": "58725",
+    "purchases": "2",
+    "purchase_value": "62094"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "7728",
+    "inline_link_clicks": "570",
+    "spend": "177840",
+    "purchases": "9",
+    "purchase_value": "334350"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "1746",
+    "inline_link_clicks": "134",
+    "spend": "44086",
+    "purchases": "11",
+    "purchase_value": "565642"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "2193",
+    "inline_link_clicks": "204",
+    "spend": "19992",
+    "purchases": "15",
+    "purchase_value": "1031850"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "14101",
+    "inline_link_clicks": "1450",
+    "spend": "430650",
+    "purchases": "54",
+    "purchase_value": "4161780"
+  },
+  {
+    "date_start": "2026-10-31",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": "2683",
+    "inline_link_clicks": "21",
+    "spend": "5943",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "16387",
+    "inline_link_clicks": "262",
+    "spend": "74146",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "3120",
+    "inline_link_clicks": "215",
+    "spend": "147920",
+    "purchases": "10",
+    "purchase_value": "575390"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "2038",
+    "inline_link_clicks": "126",
+    "spend": "78750",
+    "purchases": "9",
+    "purchase_value": "350937"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "13135",
+    "inline_link_clicks": "1176",
+    "spend": "198744",
+    "purchases": "14",
+    "purchase_value": "743960"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "3386",
+    "inline_link_clicks": "118",
+    "spend": "27612",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "18986",
+    "inline_link_clicks": "1564",
+    "spend": "278392",
+    "purchases": "27",
+    "purchase_value": "1135755"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "19842",
+    "inline_link_clicks": "995",
+    "spend": "130345",
+    "purchases": "76",
+    "purchase_value": "4042136"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "1021",
+    "inline_link_clicks": "66",
+    "spend": "30690",
+    "purchases": "1",
+    "purchase_value": "74228"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "8560",
+    "inline_link_clicks": "1010",
+    "spend": "138370",
+    "purchases": "59",
+    "purchase_value": "2593699"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "7189",
+    "inline_link_clicks": "544",
+    "spend": "236640",
+    "purchases": "38",
+    "purchase_value": "2285244"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "7505",
+    "inline_link_clicks": "506",
+    "spend": "348128",
+    "purchases": "17",
+    "purchase_value": "560082"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "11040",
+    "inline_link_clicks": "677",
+    "spend": "408908",
+    "purchases": "31",
+    "purchase_value": "788733"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "12621",
+    "inline_link_clicks": "1012",
+    "spend": "172040",
+    "purchases": "33",
+    "purchase_value": "1005840"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "3068",
+    "inline_link_clicks": "95",
+    "spend": "42275",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "1256",
+    "inline_link_clicks": "10",
+    "spend": "810",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "3921",
+    "inline_link_clicks": "423",
+    "spend": "244917",
+    "purchases": "35",
+    "purchase_value": "1512770"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "17115",
+    "inline_link_clicks": "534",
+    "spend": "248844",
+    "purchases": "20",
+    "purchase_value": "512960"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "11750",
+    "inline_link_clicks": "267",
+    "spend": "148719",
+    "purchases": "13",
+    "purchase_value": "620204"
+  },
+  {
+    "date_start": "2026-11-01",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "7491",
+    "inline_link_clicks": "570",
+    "spend": "372210",
+    "purchases": "38",
+    "purchase_value": "2460956"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "14810",
+    "inline_link_clicks": "1165",
+    "spend": "215525",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "6178",
+    "inline_link_clicks": "421",
+    "spend": "94304",
+    "purchases": "10",
+    "purchase_value": "444460"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "17379",
+    "inline_link_clicks": "1431",
+    "spend": "543780",
+    "purchases": "25",
+    "purchase_value": "544275"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "16093",
+    "inline_link_clicks": "132",
+    "spend": "22968",
+    "purchases": "1",
+    "purchase_value": "73556"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13771",
+    "inline_link_clicks": "1520",
+    "spend": "760000",
+    "purchases": "9",
+    "purchase_value": "641880"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "5309",
+    "inline_link_clicks": "325",
+    "spend": "150800",
+    "purchases": "4",
+    "purchase_value": "273936"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "11158",
+    "inline_link_clicks": "1040",
+    "spend": "257920",
+    "purchases": "39",
+    "purchase_value": "3028272"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "10226",
+    "inline_link_clicks": "193",
+    "spend": "79902",
+    "purchases": "13",
+    "purchase_value": "403624"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "13342",
+    "inline_link_clicks": "30",
+    "spend": "20400",
+    "purchases": "1",
+    "purchase_value": "49400"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "2365",
+    "inline_link_clicks": "141",
+    "spend": "37224",
+    "purchases": "6",
+    "purchase_value": "321000"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "1777",
+    "inline_link_clicks": "202",
+    "spend": "132310",
+    "purchases": "4",
+    "purchase_value": "151500"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "2474",
+    "inline_link_clicks": "241",
+    "spend": "85796",
+    "purchases": "2",
+    "purchase_value": "94984"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "9844",
+    "inline_link_clicks": "1125",
+    "spend": "184500",
+    "purchases": "37",
+    "purchase_value": "1951602"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "6478",
+    "inline_link_clicks": "148",
+    "spend": "30340",
+    "purchases": "6",
+    "purchase_value": "307152"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "3218",
+    "inline_link_clicks": "298",
+    "spend": "175224",
+    "purchases": "14",
+    "purchase_value": "673316"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "5149",
+    "inline_link_clicks": "424",
+    "spend": "41552",
+    "purchases": "12",
+    "purchase_value": "719976"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "10705",
+    "inline_link_clicks": "1106",
+    "spend": "486640",
+    "purchases": "89",
+    "purchase_value": "5918856"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "4451",
+    "inline_link_clicks": "235",
+    "spend": "58750",
+    "purchases": "15",
+    "purchase_value": "453795"
+  },
+  {
+    "date_start": "2026-11-02",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "1132",
+    "inline_link_clicks": "89",
+    "spend": "12549",
+    "purchases": "2",
+    "purchase_value": "54490"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "2910",
+    "inline_link_clicks": "4",
+    "spend": "2376",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "15447",
+    "inline_link_clicks": "1907",
+    "spend": "755172",
+    "purchases": "87",
+    "purchase_value": "5940012"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "19272",
+    "inline_link_clicks": "243",
+    "spend": "80676",
+    "purchases": "18",
+    "purchase_value": "780228"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "6645",
+    "inline_link_clicks": "91",
+    "spend": "11648",
+    "purchases": "6",
+    "purchase_value": "414894"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "1238",
+    "inline_link_clicks": "86",
+    "spend": "45494",
+    "purchases": "5",
+    "purchase_value": "363970"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "14076",
+    "inline_link_clicks": "1240",
+    "spend": "824600",
+    "purchases": "67",
+    "purchase_value": "3977723"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "8151",
+    "inline_link_clicks": "697",
+    "spend": "445383",
+    "purchases": "24",
+    "purchase_value": "358104"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "1915",
+    "inline_link_clicks": "29",
+    "spend": "15892",
+    "purchases": "1",
+    "purchase_value": "63030"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "1776",
+    "inline_link_clicks": "193",
+    "spend": "73147",
+    "purchases": "5",
+    "purchase_value": "245185"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "5365",
+    "inline_link_clicks": "505",
+    "spend": "156550",
+    "purchases": "9",
+    "purchase_value": "220923"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "8769",
+    "inline_link_clicks": "927",
+    "spend": "241020",
+    "purchases": "64",
+    "purchase_value": "3299712"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "12024",
+    "inline_link_clicks": "1471",
+    "spend": "694312",
+    "purchases": "10",
+    "purchase_value": "408190"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "13723",
+    "inline_link_clicks": "452",
+    "spend": "284308",
+    "purchases": "8",
+    "purchase_value": "492496"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "4143",
+    "inline_link_clicks": "419",
+    "spend": "69554",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "9015",
+    "inline_link_clicks": "144",
+    "spend": "19440",
+    "purchases": "4",
+    "purchase_value": "201224"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "13445",
+    "inline_link_clicks": "1167",
+    "spend": "325593",
+    "purchases": "1",
+    "purchase_value": "72349"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "9819",
+    "inline_link_clicks": "66",
+    "spend": "27192",
+    "purchases": "1",
+    "purchase_value": "78190"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "4441",
+    "inline_link_clicks": "476",
+    "spend": "208488",
+    "purchases": "23",
+    "purchase_value": "1658737"
+  },
+  {
+    "date_start": "2026-11-03",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "15058",
+    "inline_link_clicks": "184",
+    "spend": "48024",
+    "purchases": "2",
+    "purchase_value": "147082"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "16819",
+    "inline_link_clicks": "1371",
+    "spend": "501786",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "7227",
+    "inline_link_clicks": "59",
+    "spend": "36167",
+    "purchases": "3",
+    "purchase_value": "74199"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "10899",
+    "inline_link_clicks": "1358",
+    "spend": "233576",
+    "purchases": "27",
+    "purchase_value": "1351944"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "14840",
+    "inline_link_clicks": "61",
+    "spend": "11895",
+    "purchases": "4",
+    "purchase_value": "154340"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "1225",
+    "inline_link_clicks": "83",
+    "spend": "51460",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "16900",
+    "inline_link_clicks": "235",
+    "spend": "139825",
+    "purchases": "3",
+    "purchase_value": "71661"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "7545",
+    "inline_link_clicks": "644",
+    "spend": "166152",
+    "purchases": "48",
+    "purchase_value": "2326848"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "17773",
+    "inline_link_clicks": "1485",
+    "spend": "185625",
+    "purchases": "19",
+    "purchase_value": "491929"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "18607",
+    "inline_link_clicks": "167",
+    "spend": "90681",
+    "purchases": "9",
+    "purchase_value": "301437"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "8544",
+    "inline_link_clicks": "1000",
+    "spend": "265000",
+    "purchases": "18",
+    "purchase_value": "526518"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "4967",
+    "inline_link_clicks": "97",
+    "spend": "12125",
+    "purchases": "6",
+    "purchase_value": "375408"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "5362",
+    "inline_link_clicks": "507",
+    "spend": "71994",
+    "purchases": "8",
+    "purchase_value": "238848"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "18747",
+    "inline_link_clicks": "1844",
+    "spend": "1054768",
+    "purchases": "150",
+    "purchase_value": "10062600"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "17958",
+    "inline_link_clicks": "1242",
+    "spend": "580014",
+    "purchases": "20",
+    "purchase_value": "330920"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "18743",
+    "inline_link_clicks": "274",
+    "spend": "47128",
+    "purchases": "14",
+    "purchase_value": "741370"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "7264",
+    "inline_link_clicks": "898",
+    "spend": "111352",
+    "purchases": "22",
+    "purchase_value": "352880"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "911",
+    "inline_link_clicks": "62",
+    "spend": "24986",
+    "purchases": "1",
+    "purchase_value": "42069"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "2373",
+    "inline_link_clicks": "182",
+    "spend": "60060",
+    "purchases": "9",
+    "purchase_value": "272844"
+  },
+  {
+    "date_start": "2026-11-04",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "17287",
+    "inline_link_clicks": "1988",
+    "spend": "880684",
+    "purchases": "101",
+    "purchase_value": "1708718"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "13786",
+    "inline_link_clicks": "107",
+    "spend": "13482",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "1325",
+    "inline_link_clicks": "6",
+    "spend": "3462",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "14611",
+    "inline_link_clicks": "571",
+    "spend": "162735",
+    "purchases": "35",
+    "purchase_value": "2498475"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "4691",
+    "inline_link_clicks": "288",
+    "spend": "167616",
+    "purchases": "24",
+    "purchase_value": "1792416"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "3531",
+    "inline_link_clicks": "234",
+    "spend": "138060",
+    "purchases": "5",
+    "purchase_value": "189675"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "5232",
+    "inline_link_clicks": "525",
+    "spend": "303975",
+    "purchases": "31",
+    "purchase_value": "488963"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "16283",
+    "inline_link_clicks": "928",
+    "spend": "276544",
+    "purchases": "3",
+    "purchase_value": "147132"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "6044",
+    "inline_link_clicks": "448",
+    "spend": "281344",
+    "purchases": "36",
+    "purchase_value": "1586556"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "4234",
+    "inline_link_clicks": "432",
+    "spend": "174528",
+    "purchases": "21",
+    "purchase_value": "1144458"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "2720",
+    "inline_link_clicks": "54",
+    "spend": "27054",
+    "purchases": "2",
+    "purchase_value": "146256"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "13456",
+    "inline_link_clicks": "573",
+    "spend": "101994",
+    "purchases": "23",
+    "purchase_value": "1157636"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "10799",
+    "inline_link_clicks": "1180",
+    "spend": "534540",
+    "purchases": "19",
+    "purchase_value": "1479492"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "892",
+    "inline_link_clicks": "25",
+    "spend": "17275",
+    "purchases": "2",
+    "purchase_value": "115510"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "19921",
+    "inline_link_clicks": "168",
+    "spend": "95256",
+    "purchases": "12",
+    "purchase_value": "735552"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "18582",
+    "inline_link_clicks": "1548",
+    "spend": "143964",
+    "purchases": "22",
+    "purchase_value": "491942"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "13767",
+    "inline_link_clicks": "296",
+    "spend": "140304",
+    "purchases": "12",
+    "purchase_value": "215472"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "2515",
+    "inline_link_clicks": "168",
+    "spend": "28392",
+    "purchases": "7",
+    "purchase_value": "222649"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "10272",
+    "inline_link_clicks": "220",
+    "spend": "43340",
+    "purchases": "9",
+    "purchase_value": "338634"
+  },
+  {
+    "date_start": "2026-11-05",
+    "campaign_id": "C20",
+    "campaign_name": null,
+    "impressions": "10732",
+    "inline_link_clicks": "615",
+    "spend": "281670",
+    "purchases": "38",
+    "purchase_value": "2246636"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "3137",
+    "inline_link_clicks": "92",
+    "spend": "58144",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "4196",
+    "inline_link_clicks": "328",
+    "spend": "198768",
+    "purchases": "13",
+    "purchase_value": "224718"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "4063",
+    "inline_link_clicks": "386",
+    "spend": "255918",
+    "purchases": "6",
+    "purchase_value": "460596"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "13160",
+    "inline_link_clicks": "787",
+    "spend": "513911",
+    "purchases": "55",
+    "purchase_value": "4279715"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "16645",
+    "inline_link_clicks": "2075",
+    "spend": "1367425",
+    "purchases": "147",
+    "purchase_value": "7713825"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "17365",
+    "inline_link_clicks": "1652",
+    "spend": "954856",
+    "purchases": "114",
+    "purchase_value": "6107550"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "15688",
+    "inline_link_clicks": "919",
+    "spend": "239859",
+    "purchases": "48",
+    "purchase_value": "2045088"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "18459",
+    "inline_link_clicks": "1099",
+    "spend": "297829",
+    "purchases": "46",
+    "purchase_value": "1727484"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "19132",
+    "inline_link_clicks": "264",
+    "spend": "119064",
+    "purchases": "18",
+    "purchase_value": "829278"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "19575",
+    "inline_link_clicks": "1765",
+    "spend": "1209025",
+    "purchases": "11",
+    "purchase_value": "586817"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "16895",
+    "inline_link_clicks": "295",
+    "spend": "146025",
+    "purchases": "1",
+    "purchase_value": "40970"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "2207",
+    "inline_link_clicks": "33",
+    "spend": "14091",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "5692",
+    "inline_link_clicks": "246",
+    "spend": "44772",
+    "purchases": "12",
+    "purchase_value": "366672"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "12259",
+    "inline_link_clicks": "995",
+    "spend": "189050",
+    "purchases": "13",
+    "purchase_value": "315536"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "5144",
+    "inline_link_clicks": "48",
+    "spend": "31344",
+    "purchases": "3",
+    "purchase_value": "84678"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "11102",
+    "inline_link_clicks": "604",
+    "spend": "330388",
+    "purchases": "24",
+    "purchase_value": "377592"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "9649",
+    "inline_link_clicks": "537",
+    "spend": "250242",
+    "purchases": "6",
+    "purchase_value": "180432"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "603",
+    "inline_link_clicks": "22",
+    "spend": "14696",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-06",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "14698",
+    "inline_link_clicks": "383",
+    "spend": "123326",
+    "purchases": "16",
+    "purchase_value": "643872"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "8393",
+    "inline_link_clicks": "18",
+    "spend": "6012",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "12079",
+    "inline_link_clicks": "981",
+    "spend": "352179",
+    "purchases": "52",
+    "purchase_value": "2133404"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "16398",
+    "inline_link_clicks": "630",
+    "spend": "410760",
+    "purchases": "25",
+    "purchase_value": "1253000"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "13320",
+    "inline_link_clicks": "1001",
+    "spend": "647647",
+    "purchases": "51",
+    "purchase_value": "2505528"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "3613",
+    "inline_link_clicks": "397",
+    "spend": "41288",
+    "purchases": "9",
+    "purchase_value": "472104"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "2662",
+    "inline_link_clicks": "14",
+    "spend": "3318",
+    "purchases": "1",
+    "purchase_value": "42341"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "15890",
+    "inline_link_clicks": "760",
+    "spend": "266000",
+    "purchases": "45",
+    "purchase_value": "3345840"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "5501",
+    "inline_link_clicks": "541",
+    "spend": "267795",
+    "purchases": "37",
+    "purchase_value": "1307950"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "13392",
+    "inline_link_clicks": "735",
+    "spend": "191100",
+    "purchases": "4",
+    "purchase_value": "185944"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "15776",
+    "inline_link_clicks": "1438",
+    "spend": "457284",
+    "purchases": "55",
+    "purchase_value": "3579400"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "3019",
+    "inline_link_clicks": "192",
+    "spend": "125568",
+    "purchases": "10",
+    "purchase_value": "587840"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "9969",
+    "inline_link_clicks": "302",
+    "spend": "47414",
+    "purchases": "14",
+    "purchase_value": "768250"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "10789",
+    "inline_link_clicks": "896",
+    "spend": "377216",
+    "purchases": "29",
+    "purchase_value": "717634"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "10930",
+    "inline_link_clicks": "985",
+    "spend": "578195",
+    "purchases": "58",
+    "purchase_value": "3162334"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "16200",
+    "inline_link_clicks": "467",
+    "spend": "268992",
+    "purchases": "1",
+    "purchase_value": "18671"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "9327",
+    "inline_link_clicks": "847",
+    "spend": "459074",
+    "purchases": "31",
+    "purchase_value": "2071699"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "4090",
+    "inline_link_clicks": "478",
+    "spend": "152960",
+    "purchases": "4",
+    "purchase_value": "59596"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "7352",
+    "inline_link_clicks": "528",
+    "spend": "92400",
+    "purchases": "2",
+    "purchase_value": "139102"
+  },
+  {
+    "date_start": "2026-11-07",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "11954",
+    "inline_link_clicks": "917",
+    "spend": "419986",
+    "purchases": "45",
+    "purchase_value": "3330180"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "3601",
+    "inline_link_clicks": "111",
+    "spend": "19536",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "12918",
+    "inline_link_clicks": "395",
+    "spend": "166690",
+    "purchases": "32",
+    "purchase_value": "1767136"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "4568",
+    "inline_link_clicks": "133",
+    "spend": "47215",
+    "purchases": "7",
+    "purchase_value": "155449"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "1460",
+    "inline_link_clicks": "101",
+    "spend": "47975",
+    "purchases": "7",
+    "purchase_value": "344582"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "12760",
+    "inline_link_clicks": "836",
+    "spend": "363660",
+    "purchases": "39",
+    "purchase_value": "1625988"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "14686",
+    "inline_link_clicks": "240",
+    "spend": "131520",
+    "purchases": "6",
+    "purchase_value": "278874"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "14779",
+    "inline_link_clicks": "1475",
+    "spend": "352525",
+    "purchases": "38",
+    "purchase_value": "2501958"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "18133",
+    "inline_link_clicks": "554",
+    "spend": "330184",
+    "purchases": "18",
+    "purchase_value": "607698"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "5369",
+    "inline_link_clicks": "470",
+    "spend": "199280",
+    "purchases": "39",
+    "purchase_value": "1355133"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "10033",
+    "inline_link_clicks": "175",
+    "spend": "48475",
+    "purchases": "8",
+    "purchase_value": "313208"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "7304",
+    "inline_link_clicks": "57",
+    "spend": "15675",
+    "purchases": "1",
+    "purchase_value": "47989"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "14591",
+    "inline_link_clicks": "702",
+    "spend": "269568",
+    "purchases": "25",
+    "purchase_value": "1711275"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "15448",
+    "inline_link_clicks": "1576",
+    "spend": "643008",
+    "purchases": "40",
+    "purchase_value": "2827960"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "8526",
+    "inline_link_clicks": "28",
+    "spend": "4256",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "5184",
+    "inline_link_clicks": "547",
+    "spend": "70563",
+    "purchases": "9",
+    "purchase_value": "509706"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "11244",
+    "inline_link_clicks": "279",
+    "spend": "94581",
+    "purchases": "5",
+    "purchase_value": "161000"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "11579",
+    "inline_link_clicks": "1300",
+    "spend": "790400",
+    "purchases": "13",
+    "purchase_value": "410007"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "1497",
+    "inline_link_clicks": "139",
+    "spend": "27383",
+    "purchases": "4",
+    "purchase_value": "240808"
+  },
+  {
+    "date_start": "2026-11-08",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "994",
+    "inline_link_clicks": "115",
+    "spend": "48185",
+    "purchases": "3",
+    "purchase_value": "127941"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "7589",
+    "inline_link_clicks": "452",
+    "spend": "173568",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "15145",
+    "inline_link_clicks": "1198",
+    "spend": "243194",
+    "purchases": "37",
+    "purchase_value": "1213378"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "7864",
+    "inline_link_clicks": "949",
+    "spend": "555165",
+    "purchases": "35",
+    "purchase_value": "2597945"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "6322",
+    "inline_link_clicks": "782",
+    "spend": "458252",
+    "purchases": "2",
+    "purchase_value": "116088"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "3590",
+    "inline_link_clicks": "354",
+    "spend": "63720",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "1726",
+    "inline_link_clicks": "2",
+    "spend": "732",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "6691",
+    "inline_link_clicks": "85",
+    "spend": "42075",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "4747",
+    "inline_link_clicks": "546",
+    "spend": "44772",
+    "purchases": "28",
+    "purchase_value": "2071888"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "12017",
+    "inline_link_clicks": "390",
+    "spend": "271050",
+    "purchases": "22",
+    "purchase_value": "894410"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C11",
+    "campaign_name": "가상2 캠페인 11",
+    "impressions": "9911",
+    "inline_link_clicks": "777",
+    "spend": "180264",
+    "purchases": "15",
+    "purchase_value": "551235"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C12",
+    "campaign_name": "가상2 캠페인 12",
+    "impressions": "6354",
+    "inline_link_clicks": "563",
+    "spend": "112037",
+    "purchases": "46",
+    "purchase_value": "957536"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C13",
+    "campaign_name": "가상2 캠페인 13",
+    "impressions": "9076",
+    "inline_link_clicks": "931",
+    "spend": "124754",
+    "purchases": "24",
+    "purchase_value": "1839264"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C14",
+    "campaign_name": "가상2 캠페인 14",
+    "impressions": "11744",
+    "inline_link_clicks": "348",
+    "spend": "167040",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C15",
+    "campaign_name": "가상2 캠페인 15",
+    "impressions": "8777",
+    "inline_link_clicks": "447",
+    "spend": "114432",
+    "purchases": "27",
+    "purchase_value": "1269054"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C16",
+    "campaign_name": "가상2 캠페인 16",
+    "impressions": "16838",
+    "inline_link_clicks": "1620",
+    "spend": "343440",
+    "purchases": "66",
+    "purchase_value": "2851398"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C17",
+    "campaign_name": "가상2 캠페인 17",
+    "impressions": "5665",
+    "inline_link_clicks": "181",
+    "spend": "115840",
+    "purchases": "12",
+    "purchase_value": "668100"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C18",
+    "campaign_name": "가상2 캠페인 18",
+    "impressions": "18044",
+    "inline_link_clicks": "692",
+    "spend": "178536",
+    "purchases": "45",
+    "purchase_value": "2111760"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C19",
+    "campaign_name": "가상2 캠페인 19",
+    "impressions": "13686",
+    "inline_link_clicks": "421",
+    "spend": "185240",
+    "purchases": "34",
+    "purchase_value": "745348"
+  },
+  {
+    "date_start": "2026-11-09",
+    "campaign_id": "C20",
+    "campaign_name": "가상2 캠페인 20",
+    "impressions": "5156",
+    "inline_link_clicks": "47",
+    "spend": "31349",
+    "purchases": "1",
+    "purchase_value": "74474"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C01",
+    "campaign_name": "가상2 캠페인 01",
+    "impressions": "1000",
+    "inline_link_clicks": "0",
+    "spend": "0",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C02",
+    "campaign_name": "가상2 캠페인 02",
+    "impressions": "7038",
+    "inline_link_clicks": "759",
+    "spend": "345345",
+    "purchases": "0",
+    "purchase_value": "0"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C03",
+    "campaign_name": "가상2 캠페인 03",
+    "impressions": "10447",
+    "inline_link_clicks": "638",
+    "spend": "54230",
+    "purchases": "51",
+    "purchase_value": "3506454"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C04",
+    "campaign_name": "가상2 캠페인 04",
+    "impressions": "19742",
+    "inline_link_clicks": "953",
+    "spend": "602296",
+    "purchases": "44",
+    "purchase_value": "2127444"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C05",
+    "campaign_name": "가상2 캠페인 05",
+    "impressions": "8168",
+    "inline_link_clicks": "544",
+    "spend": "164832",
+    "purchases": "12",
+    "purchase_value": "509364"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C06",
+    "campaign_name": "가상2 캠페인 06",
+    "impressions": "13241",
+    "inline_link_clicks": "146",
+    "spend": 999,
+    "purchases": "11",
+    "purchase_value": "581834"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C07",
+    "campaign_name": "가상2 캠페인 07",
+    "impressions": "13024",
+    "inline_link_clicks": "143",
+    "spend": 999,
+    "purchases": "5",
+    "purchase_value": "157320"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C08",
+    "campaign_name": "가상2 캠페인 08",
+    "impressions": "12623",
+    "inline_link_clicks": "436",
+    "spend": 999,
+    "purchases": "15",
+    "purchase_value": "759525"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C09",
+    "campaign_name": "가상2 캠페인 09",
+    "impressions": "16844",
+    "inline_link_clicks": "1088",
+    "spend": 999,
+    "purchases": "60",
+    "purchase_value": "1979160"
+  },
+  {
+    "date_start": "2026-10-22",
+    "campaign_id": "C10",
+    "campaign_name": "가상2 캠페인 10",
+    "impressions": "4718",
+    "inline_link_clicks": "152",
+    "spend": 999,
+    "purchases": "5",
+    "purchase_value": "192345"
+  },
+  {
+    "date_start": "2026-02-30",
+    "campaign_id": "BAD00",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD02",
+    "campaign_name": "무효 검증행",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD03",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "12x",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD04",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": -1,
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD05",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": true,
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD06",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "1,000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD07",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": 1.5,
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": "5000"
+  },
+  {
+    "date_start": "2026-10-23",
+    "campaign_id": "BAD08",
+    "campaign_name": "무효 검증행",
+    "impressions": "100",
+    "inline_link_clicks": "10",
+    "spend": "1000",
+    "purchases": "1",
+    "purchase_value": ""
+  }
 ]
