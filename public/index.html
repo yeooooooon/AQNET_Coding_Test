@@ -22,7 +22,7 @@
           광고 성과 대시보드
         </p>
 
-        <!-- 화면 메뉴: 주소의 #overview / #campaigns 로 화면 전환 (app.js 8번) -->
+        <!-- 화면 메뉴: 주소의 #overview / #campaigns 로 화면 전환 (js/view.js showView) -->
         <nav class="side-nav" aria-label="화면 메뉴">
           <a href="#overview" data-view="overview">
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
@@ -124,7 +124,7 @@
         <!-- ============ 화면 1: 성과 요약 ============ -->
         <div class="view" data-view-panel="overview">
 
-          <!-- 요약 카드 5개(광고비·전환매출·전환수·CPA·ROAS) + 보조 지표 줄(노출·클릭·CTR·CPC). app.js renderSummary() -->
+          <!-- 요약 카드 5개(광고비·전환매출·전환수·CPA·ROAS) + 보조 지표 줄(노출·클릭·CTR·CPC). js/overview.js renderSummary() -->
           <section aria-labelledby="summary-title">
             <h2 id="summary-title" class="sr-only">전체 요약</h2>
             <div id="summary" class="kpis"></div>
@@ -155,7 +155,7 @@
                   <h3 id="trend-title" class="panel-title">일별 성과 추이</h3>
                   <p class="panel-sub">조회 기간 내 일별 집행 금액과 효율 추이입니다. 날짜에 마우스를 올리면 값이 보입니다.</p>
                 </div>
-                <!-- 막대 + 선 묶음 선택 (app.js 5-1) -->
+                <!-- 막대 + 선 묶음 선택 (js/trend.js) -->
                 <div class="segmented" role="group" aria-label="추이 지표 선택">
                   <button type="button" class="trend-btn" data-mode="roas-cost" aria-pressed="true">ROAS &amp; 광고비</button>
                   <button type="button" class="trend-btn" data-mode="cpa-conversions" aria-pressed="false">CPA &amp; 전환수</button>
@@ -208,7 +208,7 @@
             <div class="toolbar">
               <div class="toolbar-left">
                 <p class="toolbar-info" id="toolbar-info"></p>
-                <!-- ROAS 기준 필터: 기준값은 app.js ROAS_BANDS 상수 (운영 기준 가정) -->
+                <!-- ROAS 기준 필터: 기준값은 js/campaigns.js ROAS_BANDS 상수 (운영 기준 가정) -->
                 <div class="segmented" role="group" aria-label="ROAS 기준 필터">
                   <button type="button" class="band-btn" data-band="all" aria-pressed="true">전체</button>
                   <button type="button" class="band-btn" data-band="high" aria-pressed="false">우수 450%↑</button>
@@ -258,6 +258,7 @@
   <!-- 도넛·추이 그래프에 마우스를 올리면 뜨는 툴팁 -->
   <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
 
-  <script src="/app.js" type="module"></script>
+  <!-- 화면 코드 시작점. 나머지 모듈(public/js/*.js)은 main.js가 import로 불러옴 -->
+  <script src="/js/main.js" type="module"></script>
 </body>
 </html>
