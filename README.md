@@ -6,11 +6,12 @@ Naver · Meta · Google 광고 데이터를 공통 구조로 정규화하고, �
 
 | 항목 | 내용 |
 | --- | --- |
-| OS / Node | Windows 11 / Node.js v24.19.0 |
+| 필요 환경 | Node.js 24 이상 (그 외 설치 없음) |
+| 개발 환경 | Windows 11 / Node.js v24.19.0 |
 | 설치·빌드 | 없음 (외부 패키지 없음, 오프라인 실행) |
 | 실행 | `npm start` |
 | 화면 | http://localhost:3000 (성과 요약) · http://localhost:3000/#campaigns (캠페인 실적)<br>API와 같은 서버·포트에서 제공 → CORS·프록시 설정 불필요 |
-| 테스트 | `npm test` (44개) |
+| 테스트 | `npm test` (45개) |
 | 평가 대상 커밋 | `c3de542d173ad7517c01c06958a816415a0a5622` (`main`) |
 
 **PORT, DATA_DIR 변경**
@@ -33,7 +34,7 @@ $env:PORT=4000; $env:DATA_DIR="C:\path\to\data"; npm start  # Windows PowerShell
 | API와 필터 | 완료 | 기간·매체 필터, 잘못된 조건은 400 `INVALID_QUERY` |
 | 대시보드 API 연동 | 완료 | 요약 7개 지표, 매체별 표 10개 항목, 기간·매체 조회 |
 | 로딩·오류·빈 결과 | 완료 | 세 상태를 다른 문구로 구분, 오류 시 이전 값 숨김 |
-| 자동 테스트 | 완료 | 44개 |
+| 자동 테스트 | 완료 | 45개 |
 | 선택 심화 | 일부 | 캠페인 상세 API·화면, 테스트 확대 / 캐싱·대량 데이터 측정은 미구현 |
 
 **추가로 만든 화면 기능**: 일별 추이 그래프, 광고비 점유율, 이전 기간 대비 증감률, 빠른 기간 선택(7일·14일·전체), CSV 다운로드, 캠페인 검색·정렬·ROAS 기준 필터, 매체 행 클릭 시 해당 매체 캠페인으로 이동
@@ -45,14 +46,23 @@ $env:PORT=4000; $env:DATA_DIR="C:\path\to\data"; npm start  # Windows PowerShell
 **스택 선택 이유**
 - 필수 API가 1개라 프레임워크 없이 Node 내장 `http`로 충분하고, 설치 없이 바로 실행됩니다.
 - 화면도 일반 HTML/CSS/JS로 같은 서버에서 제공해 실행이 단순합니다. 그래프는 외부 라이브러리 없이 SVG로 그렸습니다.
+- 화면 코드는 브라우저 기본 기능인 ES 모듈(`import`/`export`)로 역할별 파일에 나눠, 빌드 도구 없이도 구조를 나눴습니다.
 
 **구조**
 
 ```
 src/dataset.js   파일 읽기 → 검증 → 무효 제거 → 중복 제거 (서버 시작 시 1회)
 src/summary.js   쿼리 검증 → 필터 → 집계 → 지표 계산 (요청마다)
-server.js        HTTP 서버 (API + 화면 파일)
-public/          대시보드 화면
+server.js        HTTP 서버 (API + public/ 화면 파일, 폴더 밖 접근 차단)
+public/js/       대시보드 화면 코드 (역할별 모듈)
+  main.js          시작 · 이벤트 연결
+  query.js         조회 조건 · API 호출 · 빠른 기간
+  view.js          로딩·오류·결과 표시 · 화면 전환
+  overview.js      성과 요약 (요약 카드 · 도넛 · 매체별 표)
+  trend.js         일별 추이 그래프
+  campaigns.js     캠페인 실적 (검색 · 필터 · 정렬)
+  csv.js           CSV 내보내기
+  elements.js · state.js · util.js   화면 요소 · 공유 상태 · 공통 도우미
 tests/           자동 테스트
 ```
 
@@ -83,7 +93,7 @@ tests/           자동 테스트
 - 빈 값이라도 같은 필터 키가 반복되면 400 / platform은 소문자만 허용
 - 파일 오류는 "API 500" 대신 "서버 시작 실패" 방식 선택
 - 응답에 `dataRange`(데이터 기간), `byDate`(날짜별 합계) 키 추가 (계약상 허용, 화면용)
-- ROAS 필터 기준 450% / 350%는 운영 기준 가정 (`public/app.js`의 `ROAS_BANDS`)
+- ROAS 필터 기준 450% / 350%는 운영 기준 가정 (`public/js/campaigns.js`의 `ROAS_BANDS`)
 - 증감률은 %로, 이미 %인 CTR·ROAS는 %p(차이)로 표시
 
 ## 미완성 항목과 원인
