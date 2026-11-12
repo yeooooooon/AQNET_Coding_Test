@@ -198,10 +198,21 @@ describe('HTTP', () => {
     assert.ok(typeof body.message === 'string' && body.message.trim().length > 0);
   });
 
-  test('대시보드 화면을 같은 서버에서 제공한다', async () => {
+  test('대시보드 화면을 같은 서버에서 제공한다 (index.html · 모듈 JS)', async () => {
     const res = await fetch(`${base}/`);
     assert.equal(res.status, 200);
     assert.match(res.headers.get('content-type'), /text\/html/);
+    const js = await fetch(`${base}/js/main.js`);
+    assert.equal(js.status, 200);
+    assert.match(js.headers.get('content-type'), /text\/javascript/);
+  });
+
+  test('public/ 밖의 파일과 허용하지 않은 확장자는 제공하지 않는다', async () => {
+    for (const p of ['/../server.js', '/%2e%2e/server.js', '/js/..%2f..%2fserver.js', '/%2e%2e%2fpackage.json', '/js/nope.js', '/%E0%A4%A']) {
+      const res = await fetch(`${base}${p}`);
+      assert.equal(res.status, 404, p);
+      assert.doesNotMatch(await res.text(), /createServer|"scripts"/, p); // 서버 코드·package.json 내용이 새지 않음
+    }
   });
 });
 
